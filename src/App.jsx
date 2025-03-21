@@ -13,8 +13,9 @@ import ContactDetails from './Nettisivujen Koodit/ContactDetails'
 import Blogs from './Nettisivujen Koodit/Blogs'
 import Adoption from './Nettisivujen Koodit/Adoption'
 import NavigationBar from './Nettisivujen Koodit/NavigationBar'
-import "mdb-ui-kit/dist/css/mdb.min.css";
-import "mdb-ui-kit";
+
+import "mdb-ui-kit/css/mdb.min.css"; 
+import "mdb-ui-kit"; 
 
 function App() {
   return(
