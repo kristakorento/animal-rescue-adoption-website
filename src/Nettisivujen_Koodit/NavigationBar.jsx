@@ -1,86 +1,55 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 
-function NavigationBar() {
+const NavigationBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-body-tertiary">
-      <div className="container-fluid">
-        <Link className="navbar-brand" to="#">Hope Tails Rescue ry</Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
-            </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="adoptionDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Adoption
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="adoptionDropdown">
-                <li>
-                  <Link className="dropdown-item" to="/adoption/info-guides">Info and Guides</Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/adoption/policies">Policies</Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/adoption/fees-and-process">Fees and Process</Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/adoption/faq">FAQ</Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/adoption/trial-adoption">Trial Adoption</Link>
-                </li>
-              </ul>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/dog-profiles">Dog Profiles</Link>
-            </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="contanctDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Contact Details
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="contactDropdown">
-                <li>
-                  <Link className="dropdown-item" to="/contact/pre-approval">Pre Approval</Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="/contact/privacy-policy">Privacy Policy</Link>
-                </li>
-              </ul>
-              </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/blogs">Blog</Link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <Navbar bg="light" expand="lg">
+      <Container>
+        <LinkContainer to="/">
+          <Navbar.Brand>Animal Rescue</Navbar.Brand>
+        </LinkContainer>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+          <LinkContainer to="/">
+              <Nav.Link>Home</Nav.Link>
+            </LinkContainer>
+            <NavDropdown title="Adoption" id="basic-nav-dropdown">
+              <LinkContainer to="/info-guides">
+                <NavDropdown.Item>Info Guides</NavDropdown.Item>
+              </LinkContainer>
+              <LinkContainer to="/policies">
+                <NavDropdown.Item>Policies</NavDropdown.Item>
+              </LinkContainer>
+              <LinkContainer to="/fees-and-process">
+                <NavDropdown.Item>Fees & Process</NavDropdown.Item>
+              </LinkContainer>
+              <LinkContainer to="/faq">
+                <NavDropdown.Item>FAQ</NavDropdown.Item>
+              </LinkContainer>
+              <LinkContainer to="trial-adoption">
+                <NavDropdown.Item>Trial Adoption</NavDropdown.Item>
+              </LinkContainer>
+            </NavDropdown>
+            <LinkContainer to="/dog-profiles">
+              <Nav.Link>Dog Profiles</Nav.Link>
+            </LinkContainer>
+            <NavDropdown title="Contact Details" id="basic-nav-dropdown">
+              <LinkContainer to="/pre-approval">
+                <NavDropdown.Item>Pre-Approval</NavDropdown.Item>
+              </LinkContainer>
+              <LinkContainer to="/privacy-policy">
+                <NavDropdown.Item>Privacy Policy</NavDropdown.Item>
+              </LinkContainer>
+            </NavDropdown>
+            <LinkContainer to="/blogs">
+              <Nav.Link>Blogs</Nav.Link>
+            </LinkContainer>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 
