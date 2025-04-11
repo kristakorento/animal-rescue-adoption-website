@@ -1,4 +1,35 @@
 .dropdown-title {
+  display: inline-block;
+  margin-right: 5px;
   text-decoration: none;
   color: inherit;
+  vertical-align: middle;
+}
+
+.dropdown-toggle-button {
+  background: none !important;
+  border: none !important;
+  /* color: khaki !important; */
+  margin-left: -12px;
+
+  vertical-align: middle;
+}
+
+.dropdown-toggle-button:hover {
+  color: #007bff;
+}
+
+.navbar .dropdown-toggle::after {
+  display: none;
+}
+
+.nav-bg-color{
+  background-color: #68adf2;
+}
+
+@media only screen and (min-width: 992px) {
+  .nav-title {
+    margin-top: 6px;
+    margin-right: 10px;
+  }
 }
