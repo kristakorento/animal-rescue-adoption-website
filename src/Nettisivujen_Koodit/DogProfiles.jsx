@@ -25,7 +25,6 @@ function DogProfiles() {
             <p className="text-gray-600">Breed: Golden Retriever</p>
             <p className="text-gray-600">Age: 2 years</p>
             <p className="text-gray-600">Location: Woofville</p>
-            <button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600">Adopt Me</button>
           </div>
 
           {/* Dog Card 2 */}
@@ -35,7 +34,6 @@ function DogProfiles() {
             <p className="text-gray-600">Breed: Beagle</p>
             <p className="text-gray-600">Age: 3 years</p>
             <p className="text-gray-600">Location: Barktown</p>
-            <button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600">Adopt Me</button>
           </div>
 
           {/* Dog Card 3 */}
@@ -45,7 +43,6 @@ function DogProfiles() {
             <p className="text-gray-600">Breed: Husky</p>
             <p className="text-gray-600">Age: 1 year</p>
             <p className="text-gray-600">Location: Snuggle City</p>
-            <button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600">Adopt Me</button>
           </div>
 
           {/* Dog Card 4 */}
@@ -55,7 +52,6 @@ function DogProfiles() {
             <p className="text-gray-600">Breed: Poodle</p>
             <p className="text-gray-600">Age: 4 years</p>
             <p className="text-gray-600">Location: Pawradise</p>
-            <button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600">Adopt Me</button>
           </div>
 
           {/* Dog Card 5 */}
@@ -65,7 +61,6 @@ function DogProfiles() {
             <p className="text-gray-600">Breed: Labrador</p>
             <p className="text-gray-600">Age: 2.5 years</p>
             <p className="text-gray-600">Location: Tailtown</p>
-            <button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600">Adopt Me</button>
           </div>
 
           {/* Dog Card 6 */}
@@ -75,7 +70,6 @@ function DogProfiles() {
             <p className="text-gray-600">Breed: Border Collie</p>
             <p className="text-gray-600">Age: 5 years</p>
             <p className="text-gray-600">Location: Floofy Hills</p>
-            <button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600">Adopt Me</button>
           </div>
 
         </div>
