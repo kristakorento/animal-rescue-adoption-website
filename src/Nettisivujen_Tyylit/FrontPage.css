@@ -21,7 +21,7 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -29,6 +29,14 @@
   .header-text {
     padding-left: 50px;
     padding-right: 50px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  .flex-between-600-991 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
