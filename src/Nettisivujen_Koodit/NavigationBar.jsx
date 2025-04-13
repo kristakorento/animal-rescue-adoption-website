@@ -9,7 +9,7 @@ const NavigationBar = () => {
   const [contactOpen, setContactOpen] = useState(false);
 
   return (
-    <Navbar expand="lg" className="nav-bg-color">
+    <Navbar expand="lg" className="nav-bg-color py-1">
       <Container>
         <LinkContainer to="/">
           <Navbar.Brand>Hope Tails</Navbar.Brand>

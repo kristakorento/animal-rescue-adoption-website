@@ -23,6 +23,16 @@
   display: none;
 }
 
+/* .navbar .dropdown-menu {
+  background-color: #68adf2; 
+  border-radius: 3px; 
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #ffe6a0; 
+  color: #000000; 
+} */
+
 .nav-bg-color{
   background-color: #68adf2;
 }
