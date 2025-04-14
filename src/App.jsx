@@ -13,6 +13,7 @@ import ContactDetails from './Nettisivujen_Koodit/ContactDetails';
 import Blogs from './Nettisivujen_Koodit/Blogs';
 import Adoption from './Nettisivujen_Koodit/Adoption';
 import NavigationBar from './Nettisivujen_Koodit/NavigationBar';
+import Footer from './Nettisivujen_Koodit/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from 'react';
 
@@ -59,6 +60,7 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/adoption" element={<Adoption />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
