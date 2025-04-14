@@ -1,0 +1,40 @@
+.footer{
+  background-color: #64B5F6;
+  padding-bottom: 1px;
+}
+
+.row{
+  margin-left: 50px !important;
+}
+
+.footer-contacts{
+  padding-right: 120px !important;
+
+}
+
+.footer-logo{
+  width: 250px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+@media only screen and (max-width: 992px) {
+  .row{
+    margin-left: 0px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-contacts{
+    padding-right: 0px !important;
+  }
+
+}
+
+@media only screen and (max-width: 575px) {
+  .footer-contacts{
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+  }
+}
