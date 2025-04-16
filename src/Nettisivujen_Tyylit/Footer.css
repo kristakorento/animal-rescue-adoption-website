@@ -1,6 +1,6 @@
 .footer{
   background-color: #64B5F6;
-  padding-bottom: 1px;
+  padding-bottom: 20px;
 }
 
 .row{
@@ -12,13 +12,17 @@
 } */
 
 .footer-contact-icons{
-  border: solid black;
-  border-width: 1px;
+  border: solid black 1px;
   border-radius: 7px;
   width: 36px;
   height: 45px;
   background-color: #fff;
   border-color: lightgray;
+}
+
+.footer-contact-icons a{
+  text-decoration: none;
+  color: black;
 }
 
 .bi-telephone-fill{
@@ -35,6 +39,37 @@
   height: auto;
   margin: 0 auto;
   display: block;
+}
+
+.footer-socials{
+  border: solid lightgray 0.5px;
+  border-radius: 7px;
+  background-color: #fff;
+}
+
+.footer-social-icons{
+  border: solid #ffffff 0px;
+  border-radius: 30px;
+  width: 45px;
+  height: 45px;
+  color: #000000;
+  background-color: #ffffff;
+  margin: 0px 4px;
+}
+
+.footer-social-icons.bi-twitter, .footer-social-icons.bi-instagram{
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.footer-social-icons:hover{
+  background-color: #ffffff;
+  color: #474444;
+}
+
+.footer-social-icons:hover.bi-twitter, .footer-social-icons:hover.bi-instagram{
+  background-color: #474444;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 992px) {
