@@ -7,10 +7,28 @@
   margin-left: 50px !important;
 }
 
-.footer-contacts{
+/* .footer-contacts{
   padding-right: 120px !important;
+} */
 
+.footer-contact-icons{
+  border: solid black;
+  border-width: 1px;
+  border-radius: 7px;
+  width: 36px;
+  height: 45px;
+  background-color: #fff;
+  border-color: lightgray;
 }
+
+.bi-telephone-fill{
+  padding: 4px;
+}
+
+/* .bi-question-lg{
+  width: 50px;
+  height: 60px;
+} */
 
 .footer-logo{
   width: 250px;
@@ -25,16 +43,22 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .footer-contacts{
     padding-right: 0px !important;
+    /* margin: 0px 20px !important; */
   }
-
 }
+/* 
+@media (min-width: 576px) {
+  .container, .container-sm {
+      max-width: 700px !important;
+  }
+} */
 
 @media only screen and (max-width: 575px) {
   .footer-contacts{
-    padding-left: 20% !important;
-    padding-right: 20% !important;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
   }
 }
