@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="container p-4">
-          <div className="row">
+          <div className="row footer-row">
             <div className="col justify-content-center footer-contacts">
               <h3 className="h4 p-4">Hope Tails Rescue ry</h3>
               <div className="d-flex align-items-center gap-3 mb-3">

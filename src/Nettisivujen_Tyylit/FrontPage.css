@@ -2,11 +2,18 @@
   width: 400px;
 }
 
-.bg-color {
+.bg-color-yellow {
   background-color: #ffe6a0;
-  margin: 0; /* Remove any margin */
-  padding: 0; /* Remove padding */
+  margin: 0;
+  padding: 0;
   width: 100%;
+}
+
+.bg-color-gray{
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  /* width: 100%; */
 }
 
 /* Extra small devices (phones, 600px and down) */

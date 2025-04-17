@@ -48,13 +48,13 @@ function App() {
       )}
       <Routes>
         <Route path="/" element={<FrontPage />} />
-        <Route path="/trial-adoption" element={<TrialAdoption />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/pre-approval" element={<PreApproval />} />
-        <Route path="/policies" element={<Policies />} />
-        <Route path="/info-guides" element={<InfoGuides />} />
-        <Route path="/fees-and-process" element={<FeesAndProcess />} />
-        <Route path="/faq" element={<FAQ />} />
+        <Route path="/adoption/trial-adoption" element={<TrialAdoption />} />
+        <Route path="/contact-details/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/contact-details/pre-approval" element={<PreApproval />} />
+        <Route path="/adoption/policies" element={<Policies />} />
+        <Route path="/adoption/info-guides" element={<InfoGuides />} />
+        <Route path="/adoption/fees-and-process" element={<FeesAndProcess />} />
+        <Route path="/adoption/faq" element={<FAQ />} />
         <Route path="/dog-profiles" element={<DogProfiles />} />
         <Route path="/contact-details" element={<ContactDetails />} />
         <Route path="/blogs" element={<Blogs />} />
