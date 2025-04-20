@@ -1,0 +1,6 @@
+.bg-color-yellow.sticky-categories {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
