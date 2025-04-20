@@ -1,5 +1,6 @@
 import img1 from "../assets/images/pets-1356191_1280.jpg";
 import img2 from "../assets/images/dog-4988986_1280.jpg";
+import { BlogPost } from "./Blogs";
 import '../Nettisivujen_Tyylit/FrontPage.css';
 
 function FrontPage() {
@@ -32,17 +33,6 @@ function FrontPage() {
   )
 }
 
-function BlogPost({ hideOnLg = false ,hideOnMd = false}) {
-  return (
-    <div className={`mb-4 d-flex justify-content-center ${hideOnLg ? 'd-none d-xl-flex' : ''} ${hideOnMd ? 'd-none d-md-flex' : ''}`}>
-      <div className="card h-100" style={{ width: '20rem' }}>
-        <img className="card-img-top" src={img2} alt="testikuva src:https://pixabay.com/fi/photos/koira-corgi-s%C3%B6p%C3%B6-el%C3%A4in-4988986/" />
-        <div class="card-body">
-          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum elementum varius. Nullam eu ligula sed diam placerat auctor. Nam mauris arcu, placerat sed quam non, interdum vulputate metus. </p>
-        </div>
-      </div>
-    </div>
-  )
-}
+
 
 export default FrontPage;
