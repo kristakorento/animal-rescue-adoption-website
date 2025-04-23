@@ -14,7 +14,7 @@ function InfoGuides() {
         </div>
       </div>
       <div className="about-container text-center bg-color-gray p-5">
-        <h2>About Our Rescue Process</h2>
+        <h2 className="pb-2">About Our Rescue Process</h2>
         <div className="paragraph-text">
           <h3 className="p-3">From Spain to Our Shelter in Finland</h3>
           <p>
@@ -22,7 +22,7 @@ function InfoGuides() {
             At Hope Tails Rescue, we work hard to give dogs in need a fresh start. Many of our dogs are rescued from difficult situations in Spain — including neglect, abandonment, or life on the streets. Through trusted partnerships with local rescuers and shelters in Spain, we identify dogs who are ready for a second chance.</p>
 
 
-          <h3 className="p-3">Here's how the rescue journey works:</h3>
+          <h3 className="p-3 pt-5">Here's how the rescue journey works:</h3>
 
           <p><strong>1. Rescue in Spain:</strong></p>
 
@@ -48,7 +48,7 @@ function InfoGuides() {
 
           <p>Once the dog is ready, we begin the adoption process. We carefully review applications and meet with potential adopters to ensure the best possible match. All adoptions are done responsibly, with the dog's long-term well-being at the center. </p>
         </div>
-        <h2 className="pt-5">Bringing Your Dog Home</h2>
+        <h2 className="pt-5 pb-2">Bringing Your Dog Home</h2>
         <div className="paragraph-text">
           <p className="pt-4">Welcoming a rescue dog is a special moment — but it also takes patience, understanding, and time to help your new companion settle in.</p>
 
@@ -74,7 +74,7 @@ function InfoGuides() {
 
           <p>Every dog is different — some adjust in days, others take weeks. We’ll support you every step of the way.</p>
         </div>
-        <h2 className="pt-5">Health & Veterinary Info</h2>
+        <h2 className="pt-5 pb-2">Health & Veterinary Info</h2>
         <div className="paragraph-text">
           <p className="pt-3"><strong>All our dogs receive:</strong></p>
 
@@ -92,7 +92,7 @@ function InfoGuides() {
 
 
 
-          <h3 className="p-3">After Arrival in Finland:</h3>
+          <h3 className="p-3 pt-5">After Arrival in Finland:</h3>
 
           <p>We recommend a vet check within the first two weeks of adoption. This helps confirm your dog’s health and gives your vet a baseline for future care.</p>
 
