@@ -1,37 +1,40 @@
+import "../Nettisivujen_Tyylit/Adoption.css";
+
 function Adoption() {
   return (
-    <div className="container-fluid p-0">
-      <div className="text-center bg-color-yellow p-5">
+    <div className="container-fluid p-0 text-center">
+      <div className="bg-color-yellow p-5">
         <h1 className="pb-3">Adoption</h1>
         <div className="paragraph-text">
-          <p className="pt-3 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum elementum varius. Nullam eu ligula sed diam placerat auctor. Nam mauris arcu, placerat sed quam non, interdum vulputate metus. In eget justo accumsan, vestibulum risus at, ultricies sem. Cras ante orci, vulputate eu iaculis et, feugiat non turpis. Mauris rutrum, mi et pharetra posuere, lectus felis molestie neque, non posuere purus diam vitae orci.</p>
+          <p>This page provides quick links to essential information, including our adoption process, policies, fees, trial adoption option, and frequently asked questions. It guides you through how we rescue dogs, the steps to adopt, and the support we offer before, during, and after adoption. </p>
         </div>
       </div>
-      <div className="bg-color-gray row p-5 mr-0">
-        <h2 className="text-center">Info & Guides</h2>
+      <div className="bg-color-gray p-5">
+        <h2 className="pb-2">Info & Guides</h2>
         <div className="paragraph-text">
-          <p className="pt-4 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum elementum varius. Nullam eu ligula sed diam placerat auctor. Nam mauris arcu, placerat sed quam non, interdum vulputate metus. In eget justo accumsan, vestibulum risus at, ultricies sem. Cras ante orci, vulputate eu iaculis et, feugiat non turpis. Mauris rutrum, mi et pharetra posuere, lectus felis molestie neque, non posuere purus diam vitae orci. Integer imperdiet metus tortor, sed luctus quam fermentum eget. Nullam at lectus ex. Donec consequat lectus mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent condimentum dignissim mi, et consectetur nibh vulputate vel. Mauris id euismod diam. Phasellus vitae ex vehicula, vestibulum lectus quis, venenatis urna. Nunc ac aliquet nulla, non efficitur libero. Aenean consequat, ipsum et efficitur aliquet, nisi ante condimentum mauris, at interdum ante augue quis nisl.</p>
+          <p>Discover how we at Hope Tails Rescue save dogs from Spain, welcome them to our shelter in Finland, and help them find loving homes. Learn about the adoption journey, what to expect when bringing your dog home, vet care, and our ongoing post-adoption support.</p>
         </div>
-        <h2 className="text-center pt-5">Policies & Fees</h2>
+        <h2 className="pt-5 pb-2">Policies & Fees</h2>
         <div className="paragraph-text">
-          <p className="pt-4 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum elementum varius. Nullam eu ligula sed diam placerat auctor. Nam mauris arcu, placerat sed quam non, interdum vulputate metus. In eget justo accumsan, vestibulum risus at, ultricies sem. Cras ante orci, vulputate eu iaculis et, feugiat non turpis. Mauris rutrum, mi et pharetra posuere, lectus felis molestie neque, non posuere purus diam vitae orci. Integer imperdiet metus tortor, sed luctus quam fermentum eget. Nullam at lectus ex. Donec consequat lectus mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent condimentum dignissim mi, et consectetur nibh vulputate vel. Mauris id euismod diam. Phasellus vitae ex vehicula, vestibulum lectus quis, venenatis urna. Nunc ac aliquet nulla, non efficitur libero. Aenean consequat, ipsum et efficitur aliquet, nisi ante condimentum mauris, at interdum ante augue quis nisl.</p>
+          <p>Learn about our adoption fees, reservation and cancellation policies, and the criteria we use to ensure safe, responsible, and lifelong matches for every dog.</p>
         </div>
-        <h2 className="text-center pt-5">Adoption Process</h2>
+        <h2 className="pt-5 pb-2">Adoption Process</h2>
         <div className="paragraph-text">
-          <p className="pt-4 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum elementum varius. Nullam eu ligula sed diam placerat auctor. Nam mauris arcu, placerat sed quam non, interdum vulputate metus. In eget justo accumsan, vestibulum risus at, ultricies sem. Cras ante orci, vulputate eu iaculis et, feugiat non turpis. Mauris rutrum, mi et pharetra posuere, lectus felis molestie neque, non posuere purus diam vitae orci. Integer imperdiet metus tortor, sed luctus quam fermentum eget. Nullam at lectus ex. Donec consequat lectus mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent condimentum dignissim mi, et consectetur nibh vulputate vel. Mauris id euismod diam. Phasellus vitae ex vehicula, vestibulum lectus quis, venenatis urna. Nunc ac aliquet nulla, non efficitur libero. Aenean consequat, ipsum et efficitur aliquet, nisi ante condimentum mauris, at interdum ante augue quis nisl.</p>
+          <p>Learn how to adopt a rescue dog from Hope Tails Rescue — from visiting our shelter and applying, to meeting your match and bringing them home. We guide you every step of the way. </p>
         </div>
       </div>
-      <div className="text-center bg-color-yellow p-5">
-        <h2 className="text-center">FAQ</h2>
+      <div className="bg-color-yellow p-5">
+        <h2 className="pb-2">FAQ</h2>
         <div className="paragraph-text">
-          <p className="pt-4 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum elementum varius. Nullam eu ligula sed diam placerat auctor. Nam mauris arcu, placerat sed quam non, interdum vulputate metus. In eget justo accumsan, vestibulum risus at, ultricies sem. Cras ante orci, vulputate eu iaculis et, feugiat non turpis. Mauris rutrum, mi et pharetra posuere, lectus felis molestie neque, non posuere purus diam vitae orci. </p>
+          <p>Find answers to common questions about our adoption process, fees, and what to expect when adopting from Hope Tails Rescue.</p>
         </div>
-        <h2 className="text-center pt-5">Trial Adoption</h2>
+        <h2 className="pt-5 pb-2">Trial Adoption</h2>
         <div className="paragraph-text">
-          <p className="pt-4 pb-4 text-center">Integer imperdiet metus tortor, sed luctus quam fermentum eget. Nullam at lectus ex. Donec consequat lectus mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent condimentum dignissim mi, et consectetur nibh vulputate vel. Mauris id euismod diam. Phasellus vitae ex vehicula, vestibulum lectus quis, venenatis urna. Nunc ac aliquet nulla, non efficitur libero. Aenean consequat, ipsum et efficitur aliquet, nisi ante condimentum mauris, at interdum ante augue quis nisl.</p>
+          <p>Learn about our trial adoption process, where you can welcome a dog into your home for up to 14 days to see if it's the right match before finalizing the adoption. We support you throughout the trial period.</p>
         </div>
       </div>
     </div>
   )
 }
+
 export default Adoption;
