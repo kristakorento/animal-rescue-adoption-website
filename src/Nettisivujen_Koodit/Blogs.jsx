@@ -107,17 +107,17 @@ function Blogs() {
   )
 }
 
-export function BlogPost({ photo, title, text, hideOnLg = false, hideOnMd = false, disableResponsiveHiding = false }) {
+export function BlogPost({ photo, title, text, alt, hideOnLg = false, hideOnMd = false, disableResponsiveHiding = false }) {
   return (
     <div className={`mb-4 d-flex justify-content-center ${!disableResponsiveHiding && hideOnLg ? "d-none d-xl-flex" : ""
       } ${!disableResponsiveHiding && hideOnMd ? "d-none d-md-flex" : ""}`}
     >
-      <div className="card h-100" style={{ width: '20rem'}}>
-        <img className="card-img-top" src={photo} alt="" />
-        <div class="card-body">
+      <div className="card h-100 d-flex flex-column" style={{ width: '20rem'}}>
+        <img className="card-img-top" src={photo} alt={alt} />
+        <div class="card-body d-flex flex-column">
           <h5 class="card-title">{title}</h5>
           <p class="card-text">{text}</p>
-          <a href="#" class="btn btn-primary">Read more ➜ </a>
+          <a href="#" class="btn btn-primary mt-auto">Read more ➜ </a>
         </div>
       </div>
     </div>

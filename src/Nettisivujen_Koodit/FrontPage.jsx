@@ -1,6 +1,30 @@
 import frontpageimg from "../assets/images/about-us.jpg";
 import { BlogPost } from "./Blogs";
+import blogpost1 from "../assets/images/blog-post1.jpg";
+import blogpost2 from "../assets/images/blog-post2.jpg";
+import blogpost7 from "../assets/images/blog-post7.jpg";
 import '../Nettisivujen_Tyylit/FrontPage.css';
+
+const blogPosts = [
+  {
+    photo: blogpost1,
+    title: "From Scared to Snuggles: Bella’s Journey ",
+    text: "Bella came to us shaking, underweight, and terrified of human contact. With patience, consistent care, and a lot of love from her foster family, she bloomed into a confident cuddlebug. In this heartwarming post, we share how resilience and kindness can work wonders — and why Bella reminds us every day why we do what we do.",
+    alt: "Small brown dog sitting on a beach, looking at the camera"
+  },
+  {
+    photo: blogpost2,
+    title: "5 Things You Didn’t Know About Shelter Dogs",
+    text: "Think shelter dogs are all “damaged”? Think again. In this myth-busting post, we share surprising facts about rescue dogs — from their diverse personalities to how quickly they can adapt to home life. Get ready to see rescue pups in a whole new light.",
+    alt: "A close-up of a small white and grey dog sleeping"
+  },
+  {
+    photo: blogpost7,
+    title: "A Day in the Life at Hope Tails Rescue",
+    text: "Ever wonder what really goes on behind the scenes at a dog rescue? Take a peek into a typical day at Hope Tails — from early morning feedings and vet check-ins to playtime, snuggle breaks, and adoption meet-and-greets. It’s chaos, it’s heartwarming, it’s real — and it’s all worth it.",
+    alt: "Two brown dogs sitting in front of a red building with lots of greenery in the background"
+  }
+]
 
 function FrontPage() {
   return (
@@ -31,15 +55,21 @@ function FrontPage() {
       <div className="blogs-container text-center justify-content-around bg-color-yellow p-5">
         <h2 className="pb-5">Check these blog posts out:</h2>
         <div className="d-flex flex-wrap justify-content-center gap-4">
-          <BlogPost />
-          <BlogPost hideOnMd />
-          <BlogPost hideOnLg />
+          {blogPosts.map((post, index) => (
+            <BlogPost
+              key={index}
+              photo={post.photo}
+              title={post.title}
+              text={post.text}
+              alt={post.alt}
+              hideOnMd={index === 1}
+              hideOnLg={index === 2}
+            />
+          ))}
         </div>
       </div>
     </div>
   )
 }
-
-
 
 export default FrontPage;
