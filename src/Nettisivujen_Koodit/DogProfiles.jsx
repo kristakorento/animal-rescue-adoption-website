@@ -6,8 +6,8 @@ import '../Nettisivujen_Tyylit/DogProfiles.css';
 function DogProfiles() {
   return ( 
           <Container>
-            <div fluid className="bg-color-yellow py-4">
-              <Container className="gx-5 gy-5">
+            <div className="bg-color-yellow w-100 py-4">
+              <Container fluid className="px-4">
                 <h2 className="text-center mb-4">Dogs</h2>
                 <p className="text-center mb-5">
                 Tutustu ihanaihin koirakamuihimme! Jokaisella on oma uniikki luonne ja tarina. 
