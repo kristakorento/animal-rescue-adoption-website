@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Navbar, Nav, NavDropdown, Container, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
@@ -7,16 +7,33 @@ import "../Nettisivujen_Tyylit/NavigationBar.css";
 const NavigationBar = () => {
   const [adoptionOpen, setAdoptionOpen] = useState(false);
   const [contactOpen, setContactOpen] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 992);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth >= 992);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const handleNavSelect = () => {
+    setExpanded(false);
+  };
 
   return (
-    <Navbar expand="lg" className="nav-bg-color py-1">
+    <Navbar expand="lg" className="nav-bg-color py-1" expanded={expanded}>
       <Container>
         <LinkContainer to="/">
           <Navbar.Brand>Hope Tails</Navbar.Brand>
         </LinkContainer>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle
+          aria-controls="basic-navbar-nav"
+          onClick={() => setExpanded(!expanded)}
+        />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto" onSelect={handleNavSelect}>
             <LinkContainer to="/">
               <Nav.Link className="nav-title">Home</Nav.Link>
             </LinkContainer>
@@ -31,8 +48,8 @@ const NavigationBar = () => {
                   <Button
                     className="dropdown-toggle-button"
                     onClick={(e) => {
-                      e.preventDefault(); // Prevent navigation
-                      setAdoptionOpen(!adoptionOpen);
+                      e.preventDefault()
+                      setAdoptionOpen(!adoptionOpen)
                     }}
                   >
                     ▼
@@ -41,28 +58,38 @@ const NavigationBar = () => {
               }
               id="adoption-dropdown"
               show={adoptionOpen}
-              onMouseEnter={() => setAdoptionOpen(true)}
-              onMouseLeave={() => setAdoptionOpen(false)}
+              onMouseEnter={() => isLargeScreen && setAdoptionOpen(true)}
+              onMouseLeave={() => isLargeScreen && setAdoptionOpen(false)}
             >
               <LinkContainer to="/adoption/info-guides">
-                <NavDropdown.Item>Info Guides</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setAdoptionOpen(false)}>
+                  Info & Guides
+                </NavDropdown.Item>
               </LinkContainer>
               <LinkContainer to="/adoption/policies">
-                <NavDropdown.Item>Policies</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setAdoptionOpen(false)}>
+                  Policies
+                </NavDropdown.Item>
               </LinkContainer>
               <LinkContainer to="/adoption/fees-and-process">
-                <NavDropdown.Item>Fees & Process</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setAdoptionOpen(false)}>
+                  Fees & Process
+                </NavDropdown.Item>
               </LinkContainer>
               <LinkContainer to="/adoption/faq">
-                <NavDropdown.Item>FAQ</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setAdoptionOpen(false)}>
+                  FAQ
+                </NavDropdown.Item>
               </LinkContainer>
               <LinkContainer to="/adoption/trial-adoption">
-                <NavDropdown.Item>Trial Adoption</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setAdoptionOpen(false)}>
+                  Trial Adoption
+                </NavDropdown.Item>
               </LinkContainer>
             </NavDropdown>
 
             <LinkContainer to="/dog-profiles">
-              <Nav.Link className="nav-title">Dog Profiles</Nav.Link>
+              <Nav.Link className="nav-title">Dogs</Nav.Link>
             </LinkContainer>
 
             {/* Contact Details Section */}
@@ -75,7 +102,7 @@ const NavigationBar = () => {
                   <Button
                     className="dropdown-toggle-button"
                     onClick={(e) => {
-                      e.preventDefault(); // Prevent navigation
+                      e.preventDefault()
                       setContactOpen(!contactOpen);
                     }}
                   >
@@ -85,19 +112,23 @@ const NavigationBar = () => {
               }
               id="contact-dropdown"
               show={contactOpen}
-              onMouseEnter={() => setContactOpen(true)}
-              onMouseLeave={() => setContactOpen(false)}
+              onMouseEnter={() => isLargeScreen && setContactOpen(true)}
+              onMouseLeave={() => isLargeScreen && setContactOpen(false)}
             >
               <LinkContainer to="/contact-details/pre-approval">
-                <NavDropdown.Item>Pre-Approval</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setContactOpen(false)}>
+                  Pre-Approval
+                </NavDropdown.Item>
               </LinkContainer>
               <LinkContainer to="/contact-details/privacy-policy">
-                <NavDropdown.Item>Privacy Policy</NavDropdown.Item>
+                <NavDropdown.Item onClick={() => setContactOpen(false)}>
+                  Privacy Policy
+                </NavDropdown.Item>
               </LinkContainer>
             </NavDropdown>
 
             <LinkContainer to="/blogs">
-              <Nav.Link className="nav-title">Blogs</Nav.Link>
+              <Nav.Link className="nav-title">Blog</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
