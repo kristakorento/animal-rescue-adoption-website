@@ -54,7 +54,7 @@ function FrontPage() {
       </div>
       <div className="blogs-container text-center justify-content-around bg-color-yellow p-5">
         <h2 className="pb-5">Check these blog posts out:</h2>
-        <div className="d-flex flex-wrap justify-content-center gap-4">
+        <div className="d-flex justify-content-center gap-4">
           {blogPosts.map((post, index) => (
             <BlogPost
               key={index}
