@@ -1,4 +1,3 @@
-import img2 from "../assets/images/dog-4988986_1280.jpg";
 import blogpost1 from "../assets/images/blog-post1.jpg";
 import blogpost2 from "../assets/images/blog-post2.jpg";
 import blogpost3 from "../assets/images/blog-post3.jpg";
@@ -12,44 +11,50 @@ const blogPosts = [
     photo: blogpost1,
     title: "From Scared to Snuggles: Bella’s Journey ",
     text: "Bella came to us shaking, underweight, and terrified of human contact. With patience, consistent care, and a lot of love from her foster family, she bloomed into a confident cuddlebug. In this heartwarming post, we share how resilience and kindness can work wonders — and why Bella reminds us every day why we do what we do.",
-    alt: "Small brown dog sitting on a beach, looking at the camera"
+    alt: "Small brown dog sitting on a beach, looking at the camera",
+    buttontext: "Read more ➜"
   },
   {
     photo: blogpost2,
     title: "5 Things You Didn’t Know About Shelter Dogs",
     text: "Think shelter dogs are all “damaged”? Think again. In this myth-busting post, we share surprising facts about rescue dogs — from their diverse personalities to how quickly they can adapt to home life. Get ready to see rescue pups in a whole new light.",
-    alt: "A close-up of a small white and grey dog sleeping"
+    alt: "A close-up of a small white and grey dog sleeping",
+    buttontext: "Read more ➜"
   },
   {
     photo: blogpost3,
     title: "Saying Goodbye to Sisu",
     text: "Not every rescue story ends the way we hope. In this heartfelt post, we share the story of Sisu — a gentle soul who touched many lives during his short time with us. A tribute to the dogs who teach us love, even in loss.",
-    alt: "A close-up of a dog nose"
+    alt: "A close-up of a dog nose",
+    buttontext: "Read more ➜"
   },
   {
     photo: blogpost4,
     title: "The Journey of Healing: How Rescue Dogs Learn to Trust Again",
     text: "Rescue dogs often carry invisible wounds. In this touching post, we explore the emotional recovery process, share real stories, and offer advice for building trust at your dog’s own pace.",
-    alt: "A wide-shot of a corgi dog sitting on grass, looking at the camera"
+    alt: "A wide-shot of a corgi dog sitting on grass, looking at the camera",
+    buttontext: "Read more ➜"
   },
   {
     photo: blogpost5,
     title: "The Puppy Chronicles: Raising Rescue Pups Right",
     text: "From wobbly first steps to playful zoomies — this post follows a recent litter of rescue puppies as they grow, learn, and steal hearts. Plus, tips for adopting and raising a young rescue dog.",
-    alt: "A happy looking brown puppy with a smile and closed eyes"
+    alt: "A happy looking brown puppy with a smile and closed eyes",
+    buttontext: "Read more ➜"
   },
   {
     photo: blogpost6,
     title: "Travel Day: How Our Dogs Journey from Spain to Finland",
     text: "Ever wondered what happens between rescue and arrival? This post follows our dogs’ travel day — from pre-departure vet checks in Spain to safe transport and the welcome they receive at our Finnish shelter.",
-    alt: "A black and white dog hanging its head out of a car window, looking at the camera"
+    alt: "A black and white dog hanging its head out of a car window, looking at the camera",
+    buttontext: "Read more ➜"
   }
 ]
 
 function Blogs() {
   return (
     <div className="container-fluid p-0">
-      <div className="text-center bg-color-yellow p-5">
+      <div className="text-center bg-color-yellow pt-5 pb-2 px-5 p-md-5">
         <h1 className="pb-3">Blog</h1>
         <div className="paragraph-text">
           <p>Welcome to our blog — a place where we share the heart behind the rescue. From happy adoption stories and behind-the-scenes moments to advice for adopters and the occasional bittersweet tale, this is where you can follow the journey of our dogs — and the people who love them. </p>
@@ -103,6 +108,7 @@ function Blogs() {
                   title={post.title}
                   text={post.text}
                   alt={post.alt}
+                  buttontext={post.buttontext}
                   disableResponsiveHiding
                 />
               </div>
@@ -114,7 +120,7 @@ function Blogs() {
   )
 }
 
-export function BlogPost({ photo, title, text, alt, hideOnLg = false, hideOnMd = false, disableResponsiveHiding = false }) {
+export function BlogPost({ photo, title, text, alt, buttontext, hideOnLg = false, hideOnMd = false, disableResponsiveHiding = false }) {
   return (
     <div className={`w-100 d-flex justify-content-center ${!disableResponsiveHiding && hideOnLg ? "d-none d-xl-flex" : ""
       } ${!disableResponsiveHiding && hideOnMd ? "d-none d-md-flex" : ""}`}
@@ -124,7 +130,7 @@ export function BlogPost({ photo, title, text, alt, hideOnLg = false, hideOnMd =
         <div className="card-body d-flex flex-column">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{text}</p>
-          <a href="#" className="btn btn-primary mt-auto">Read more ➜ </a>
+          <a href="#" className="btn btn-primary mt-auto">{buttontext}</a>
         </div>
       </div>
     </div>
