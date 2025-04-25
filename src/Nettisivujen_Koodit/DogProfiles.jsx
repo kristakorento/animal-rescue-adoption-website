@@ -26,7 +26,8 @@ function DogProfiles() {
       <div className='bg-color-grey py-4'>
         <Container>
           <Row className="justify-content-center gx-4 gy-4">
-            <Col xs={12} sm={6} md={4} lg={4} className="mb-3 white-background">
+            <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
+            <div className="white-background p-3">
               <div className="image-container">
                 <img src={amerikanstaffordshirenterrieri} alt="Kuva 1" className="img-fluid rounded shadow" />
               </div>
@@ -56,9 +57,11 @@ function DogProfiles() {
                   She’s still learning how to interact with other dogs, so slow introductions are best. 
                 </p>
               </div>
+            </div>
             </Col>
             
-            <Col xs={12} sm={6} md={4} lg={4} className="mb-3 white-background">
+            <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
+            <div className="white-background p-3">
               <div className="image-container">
                 <img src={cockapoo} alt="Kuva 1" className="img-fluid rounded shadow" />
               </div>
@@ -88,9 +91,11 @@ function DogProfiles() {
                   He enjoys short walks and indoor games, making him a great fit for both apartments and houses.  
                 </p>
               </div>
+            </div>
             </Col>
 
-            <Col xs={12} sm={6} md={4} lg={4} className="mb-3 white-background">
+            <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
+            <div className="white-background p-3">
               <div className="image-container">
                 <img src={corgi} alt="Kuva 1" className="img-fluid rounded shadow" />
               </div>
@@ -120,9 +125,11 @@ function DogProfiles() {
                   He’d thrive in a home where he can be involved in day-to-day activities and cuddle up on the couch at the end of the day. .  
                 </p>
               </div>
+            </div>
             </Col>
 
-            <Col xs={12} sm={6} md={4} lg={4} className="mb-3 white-background">
+            <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
+            <div className="white-background p-3">
               <div className="image-container">
                 <img src={bulldog} alt="Kuva 1" className="img-fluid rounded shadow" />
               </div>
@@ -156,9 +163,11 @@ function DogProfiles() {
                   She does well with other dogs and would benefit from moderate daily activity and lots of cuddles.  
                 </p>
               </div>
+            </div>
             </Col>
 
-            <Col xs={12} sm={6} md={4} lg={4} className="mb-3 white-background">
+            <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
+            <div className="white-background p-3">
               <div className="image-container">
                 <img src={labradorinnoutaja} alt="Kuva 1" className="img-fluid rounded shadow" />
               </div>
@@ -188,9 +197,11 @@ function DogProfiles() {
                    He loves children and is well-mannered around other dogs. Milo is the definition of a family dog. 
                 </p>
               </div>
+            </div>
             </Col>
 
-            <Col xs={12} sm={6} md={4} lg={4} className="mb-3 white-background">
+            <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
+            <div className="white-background p-3">
               <div className="image-container">
                 <img src={merlesekarotu} alt="Kuva 1" className="img-fluid rounded shadow" />
               </div>
@@ -221,9 +232,13 @@ function DogProfiles() {
                   He’s great with older kids and would make a loyal friend to someone who enjoys leisurely walks and chill afternoons. 
                 </p>
               </div>
+            </div>
             </Col>
+          </Row>
 
-            <Col xs={12} sm={6} md={4} lg={4} className="mb-3 white-background">
+          <Row className="justify-content-start gx-4 gy-4">
+            <Col xs={12} sm={6} md={4} lg={4} className="mb-3">
+            <div className="white-background p-3">
               <div className="image-container">
                 <img src={sekarotu} alt="Kuva 1" className="img-fluid rounded shadow" />
               </div>
@@ -253,14 +268,15 @@ function DogProfiles() {
 
                 <h3 className='ala-otsikko'>Ideal Home:</h3>
                 <p className='normi-teskti'>Nova would thrive in a loving home that can offer her stability, structure,
-                   and plenty of affection. She’d do well with a family or individual who has the time and patience to continue her 
-                   training and help her blossom into a confident adult dog. 
+                  and plenty of affection. She’d do well with a family or individual who has the time and patience to continue her 
+                  training and help her blossom into a confident adult dog. 
                   She’s friendly with other dogs and would love a calm canine companion. 
                 </p>
               </div>
+            </div>
             </Col>
-
           </Row>
+
         </Container>
       </div>
     </div>
