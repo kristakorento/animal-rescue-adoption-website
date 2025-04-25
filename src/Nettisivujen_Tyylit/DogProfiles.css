@@ -1,16 +1,16 @@
 .bg-color-yellow {
-    background-color: #ffe6a0;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
-  
-  .bg-color-gray{
-    background-color: #f2f2f2;
-    margin: 0;
-    padding: 0;
-    /* width: 100%; */
-  }
+  background-color: #ffe6a0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.bg-color-gray{
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  /* width: 100%; */
+}
   
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {

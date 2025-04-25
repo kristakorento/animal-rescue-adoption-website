@@ -10,8 +10,8 @@ function DogProfiles() {
               <Container className="gx-5 gy-5">
                 <h2 className="text-center mb-4">Dogs</h2>
                 <p className="text-center mb-5">
-                Tutustu ihanaihin koirakamuihimme! Jokaisella on oma uniikki luonne ja tarina. 
-                Ehkä löydät uuden suosikin tai oman bestiksen!
+                  Tutustu ihanaihin koirakamuihimme! Jokaisella on oma uniikki luonne ja tarina. 
+                  Ehkä löydät uuden suosikin tai oman bestiksen!
                 </p>
               </Container>
             </div>
