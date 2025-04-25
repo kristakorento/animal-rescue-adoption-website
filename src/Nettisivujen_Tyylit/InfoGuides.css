@@ -16,6 +16,32 @@ h3{
   font-size: 1.5em !important;
 }
 
+.info-list{
+  border: #dee2e6 1px solid;
+  border-radius: 10px;
+  background: #ffffff;
+  margin: 0 auto;
+  display: inline-block;
+  padding: 0;
+}
+
+.info-list ul {
+  list-style: disc;
+  padding: 1.25rem 1rem 1rem 2rem;
+  margin: 0;
+}
+
+.info-list li {
+  margin-bottom: 0.5rem;
+  word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .info-list {
+    width: 100%; 
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   .paragraph-text {
     padding-left: 200px;

@@ -34,7 +34,7 @@ function FAQ() {
       <div className="bg-color-yellow p-5">
         <h2 className="pb-2">Did not find the answer to your question?</h2>
         <div className="paragraph-text">
-          <p className="pt-2">You can contact us via the <a href='/contact-details'>contact form</a> or through our social media channels.</p>
+          <p className="pt-2">You can contact us via the <a href='/contact-details'><strong>contact form</strong></a> or through our social media channels.</p>
         </div>
       </div>
     </div>
