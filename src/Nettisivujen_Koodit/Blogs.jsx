@@ -53,7 +53,7 @@ const blogPosts = [
 
 function Blogs() {
   return (
-    <div className="container-fluid p-0">
+    <div className="container-fluid p-0 text-center">
       <div className="text-center bg-color-yellow pt-5 pb-2 px-5 p-md-5">
         <h1 className="pb-3">Blog</h1>
         <div className="paragraph-text">
@@ -128,9 +128,9 @@ export function BlogPost({ photo, title, text, alt, buttontext, hideOnLg = false
       <div className="card h-100 d-flex flex-column" style={{ width: '100%', maxWidth: '20rem'}}>
         <img className="card-img-top" src={photo} alt={alt} />
         <div className="card-body d-flex flex-column">
-          <h5 className="card-title">{title}</h5>
+          <h3 className="card-title blogpost-title">{title}</h3>
           <p className="card-text">{text}</p>
-          <a href="#" className="btn btn-primary mt-auto">{buttontext}</a>
+          <a href="/blogs" className="btn btn-primary mt-auto">{buttontext}</a>
         </div>
       </div>
     </div>
