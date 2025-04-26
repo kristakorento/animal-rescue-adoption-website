@@ -1,3 +1,6 @@
+import React from "react";
+import '../Nettisivujen_Tyylit/AdoptionPolicies.css'
+
 function Policies(){
     
 }
