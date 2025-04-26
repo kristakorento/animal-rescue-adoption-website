@@ -8,7 +8,7 @@ function FeesAndProcess(){
           <div className='bg-color-yellow' style={{ backgroundColor: "#ffe08a", padding: "2rem", textAlign: "center" }}>
             <h1>Adoption Process</h1>
             <h3>Adoption Process & Fees</h3>
-            <p>
+            <p className='info'>
             Adopting a rescue dog is a life-changing experience — for both you and the dog. At Hope Tails Rescue, 
             we believe in thoughtful, well-matched adoptions that lead to lifelong companionship. That’s why we’ve created a 
             clear, step-by-step process to help guide you from the first meet-and-greet to welcoming your new best friend home.  <br />
@@ -73,7 +73,7 @@ function FeesAndProcess(){
 
                     <h3>Adoption Timeline</h3>
                     <p>
-                        The adoption process usually takes about 1 to 2 weeks, depending on how quickly each step is completed. 
+                        The adoption process usually takes about 1 to 2 weeks, depending on how quickly each step is completed. <br /> <br />
                         Here's a general overview: 
                     </p>
 
@@ -96,16 +96,18 @@ function FeesAndProcess(){
                         At Hope Tails Rescue, our adoption fee helps cover a portion of the costs involved in rescuing, 
                         caring for, and transporting our dogs safely to Finland. Every adopted dog receives:  
                     </p>
-                    <ul>
-                        <li>-Vaccinations (core + rabies)</li>
-                        <li>- Microchipping</li>
-                        <li>- EU Pet Passport</li>
-                        <li>- Sterilization (if old enough)</li>
-                        <li>- Parasite treatments</li>
-                        <li>- Health checks</li>
-                        <li>- Travel from Spain to our shelter in Finland</li>
-                        <li>- Ongoing care and behavioral observation</li>
-                    </ul>
+                    <div className='adoption-fees'>
+                        <ul>
+                            <li>-Vaccinations (core + rabies)</li>
+                            <li>- Microchipping</li>
+                            <li>- EU Pet Passport</li>
+                            <li>- Sterilization (if old enough)</li>
+                            <li>- Parasite treatments</li>
+                            <li>- Health checks</li>
+                            <li>- Travel from Spain to our shelter in Finland</li>
+                            <li>- Ongoing care and behavioral observation</li>
+                        </ul>
+                    </div>
 
                     <p>Current Adoption Fee: 450–500€ <br /> </p>
                     <p>(Please note: fees may vary slightly based on age, medical needs, or travel costs.) <br /> </p>
