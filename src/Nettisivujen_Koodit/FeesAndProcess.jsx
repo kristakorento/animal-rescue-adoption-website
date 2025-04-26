@@ -135,6 +135,13 @@ function FeesAndProcess(){
                     <li>- Some dogs may require more time, patience, or experience. We will always be honest about their needs.</li>
                 </ul>
             </div>
+
+            <h3>Contact Info</h3>
+            <h5>Do you have questions?</h5>
+
+            <p>
+                Check out our <a href="FAQ.jsx">FAQ</a> section or <a href="ContactDetails.jsx">contact us</a> for more information. 
+            </p>
           </div>
     
         </div>
