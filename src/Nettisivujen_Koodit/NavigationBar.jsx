@@ -115,11 +115,6 @@ const NavigationBar = () => {
               onMouseEnter={() => isLargeScreen && setContactOpen(true)}
               onMouseLeave={() => isLargeScreen && setContactOpen(false)}
             >
-              <LinkContainer to="/contact-details/pre-approval">
-                <NavDropdown.Item onClick={() => setContactOpen(false)}>
-                  Pre-Approval
-                </NavDropdown.Item>
-              </LinkContainer>
               <LinkContainer to="/contact-details/privacy-policy">
                 <NavDropdown.Item onClick={() => setContactOpen(false)}>
                   Privacy Policy
