@@ -4,14 +4,14 @@ import '../Nettisivujen_Tyylit/PrivacyPolicy.css';
 
 function PrivacyPolicy(){
     return(
-        <div>
-      <div style={{ backgroundColor: "#ffe08a", padding: "2rem", textAlign: "center" }}>
-        <h1>Privacy Policy</h1>
-        <p>
-          We are committed to protecting your personal data and ensuring your privacy is respected.
-          This Privacy Policy explains how we collect, use, store, and protect your information when you interact with our services.
-        </p>
-      </div>
+        <div className='bg-color-grey'>
+        <div className='bg-color-yellow' style={{ backgroundColor: "#ffe08a", padding: "2rem", textAlign: "center" }}>
+          <h1>Privacy Policy</h1>
+          <p>
+            We are committed to protecting your personal data and ensuring your privacy is respected.
+            This Privacy Policy explains how we collect, use, store, and protect your information when you interact with our services.
+          </p>
+        </div>
 
       <Container className="my-5">
         <Row className="justify-content-center"  style={{ margintop:"4rem" ,marginBottom: "4rem"}}>
