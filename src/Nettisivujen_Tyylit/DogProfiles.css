@@ -3,7 +3,6 @@ body {
   padding: 0;
 }
 .bg-color-yellow {
-<<<<<<< HEAD
     background-color: #ffe6a0;
     position: relative;
     width: 100%;
@@ -18,7 +17,7 @@ body {
     width: 100%;
   }
   
-=======
+.white-background{
   background-color: #ffe6a0;
   margin: 0;
   padding: 0;
@@ -62,17 +61,18 @@ ul{
 
 .white-background {
   background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  margin: 10px;
-  border-radius: 10px;
-}
+  height: 100%; /* tärkeä! venyy täyteen korkeuteen */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 
 .text-container {
   width: 100%; 
   padding: 10px;
 }
->>>>>>> f9d634d3032c18676fceac97866f69e219113840
+
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     
