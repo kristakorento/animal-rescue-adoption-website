@@ -6,7 +6,7 @@ function Policies() {
   return (
     <div className="bg-color-grey">
         <div className='bg-color-yellow p-5'>
-            <h1 className="p-3 fw-bold text-decoration-underline">Adoption Policies</h1>
+            <h1 className="p-3 fw-bold">Adoption Policies</h1>
             <p>
                 Adopting a rescue dog is a big step — and we’re here to make it smooth and transparent. On this page, you’ll find details about our reservation process, and what’s required from adopters.
             </p>
@@ -16,13 +16,13 @@ function Policies() {
         </div>
 
      <div className='bg-color-grey p-5'>
-     <h2 className="p-3 fw-bold text-decoration-underline">Reservation & Cancellation Policy</h2>
+     <h2 className="p-3 fw-bold">Reservation & Cancellation Policy</h2>
       <p>
         We understand that adopting a dog is a big commitment — and we want to make sure it's the right fit for both you and the dog.
       </p>
 
-      <h3 className=" text-dark p-3 fw-bold text-decoration-underline">Reservation Policy:</h3>
-      <p className="fst-italic">
+      <h3 className=" text-dark p-3 fw-bold">Reservation Policy:</h3>
+      <p>
         Once your application is approved, you may reserve a dog for up to 7 days.
       </p>
       <p>
@@ -32,8 +32,8 @@ function Policies() {
         During the reservation period, we pause all other applications for that dog.
       </p>
 
-      <h3 className="p-3 fw-bold text-decoration-underline">Cancellation Policy</h3>
-      <p className="fst-italic">
+      <h3 className="p-3 fw-bold">Cancellation Policy</h3>
+      <p>
         If you decide to cancel the adoption after placing a reservation, the deposit is non-refundable.
       </p>
       <p>
@@ -45,7 +45,7 @@ function Policies() {
 
      </div>
      <div className="bg-color-yellow p-5">
-     <h2 className="p-3 fw-bold text-decoration-underline">Adoption Eligibility Criteria</h2>
+     <h2 className="p-3 fw-bold">Adoption Eligibility Criteria</h2>
       <p>
         We’re committed to making matches that are safe, stable, and lifelong. To adopt from Hope Tails Rescue, applicants must:
       </p>
@@ -62,7 +62,7 @@ function Policies() {
         We do not prioritize based on who applies first — we focus on finding the best match for the dog’s individual needs.
       </p>
 
-      <h2 className="p-3 fw-bold text-decoration-underline">Adoption Denial Policy</h2>
+      <h2 className="p-3 fw-bold">Adoption Denial Policy</h2>
       <p>
         While we deeply appreciate everyone who opens their heart to a rescue dog, we also have a responsibility to protect their well-being. We may deny an adoption application if:
       </p>
