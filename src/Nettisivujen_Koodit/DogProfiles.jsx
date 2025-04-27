@@ -11,7 +11,6 @@ import sekarotu from '../assets/images/sekarotu.jpg'
 
 function DogProfiles() {
   return ( 
-<<<<<<< HEAD
           <Container>
             <div className="bg-color-yellow w-100 py-4">
               <Container fluid className="px-4">
@@ -105,17 +104,15 @@ function DogProfiles() {
                 </Row>
                 </Container>
             </div>
-=======
     <div>
-         <div className="bg-color-yellow py-4">
-        <Container className="gx-5 gy-5">
+          <div className="bg-color-yellow py-4">
+          <Container className="gx-5 gy-5">
           <h1 className="text-center mb-4">Dogs</h1>
           <p className="text-center mb-5 yellow-text">
             Every dog at Hope Tails Rescue has a unique story and is looking for a loving forever home.
              Browse their profiles to learn more about their personalities, needs, 
              and journey so far — your new best friend might be just a scroll away. 
           </p>
->>>>>>> f9d634d3032c18676fceac97866f69e219113840
         </Container>
       </div>
 
@@ -372,10 +369,11 @@ function DogProfiles() {
             </div>
             </Col>
           </Row>
-
+        
         </Container>
       </div>
     </div>
+    </Container>
   );
 }
 
