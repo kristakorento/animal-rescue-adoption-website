@@ -5,7 +5,7 @@ import '../Nettisivujen_Tyylit/TrialAdoption.css'
 function TrialAdoption() {
   return (
     <div className='bg-color-grey'>
-      <div className='bg-color-yellow' style={{ backgroundColor: "#ffe08a", padding: "2rem", textAlign: "center" }}>
+      <div className='bg-color-yellow' style={{padding: "2rem", textAlign: "center" }}>
         <h1>Trial Adoption</h1>
         <p>Not sure if you're ready to commit?
            A trial adoption gives you and the dog a chance to get to know each other before making a lifelong decision. 
@@ -61,7 +61,7 @@ function TrialAdoption() {
         </div>
       </Container>
 
-      <div className='bg-color-yellow' style={{ backgroundColor: "#ffe08a", padding: "2rem", textAlign: "center" }}>
+      <div className='bg-color-yellow' style={{padding: "2rem", textAlign: "center" }}>
         <h3>Have questions?</h3>
         <p>Check out our FAQ section or contact us for more information.</p>
       </div>

@@ -31,7 +31,7 @@ function ContactDetails() {
   return (
     <div className="bg-color-grey min-vh-100">
       
-      <div className="bg-color-yellow text-center py-5 mb-4 w-100">
+      <div className="bg-color-yellow text-center p-5 mb-4 w-100">
         <h2>Contact Information</h2>
         <p>
           Have questions about adopting, volunteering, or our dogs? 
@@ -171,7 +171,7 @@ function ContactDetails() {
         <p>Follow us on Instagram, Twitter, Facebook & LinkedIn @hopetailsrescue</p>
       </Container>
 
-      <div className="bg-color-yellow text-center py-5 mb-4 w-100">
+      <div className="bg-color-yellow text-center py-5 w-100">
             <h2>Need Help Fast?</h2>
             <p>
                 Check out our <a href="FAQ.jsx">FAQ</a> section for quick answers to common questions or scroll on our site for more info on the subject. 

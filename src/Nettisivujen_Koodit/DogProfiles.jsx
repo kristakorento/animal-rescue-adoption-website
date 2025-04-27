@@ -32,7 +32,7 @@ function DogProfiles() {
                 <img src={amerikanstaffordshirenterrieri} alt="Kuva 1" className="img-fluid rounded shadow" />
               </div>
 
-              <div className="text-container">
+              <div className="text-container ">
                 <h2 className="mt-3 nimi-otsikko">Nala</h2>
                 <p className='normi-teskti'>Breed: American Staffordshire Terrier</p>
                 <p className='normi-teskti'>Age: 7 months</p>
