@@ -10,7 +10,20 @@ import merlesekarotu from '../assets/images/merle-sekarotu.jpg'
 import sekarotu from '../assets/images/sekarotu.jpg'
 
 function DogProfiles() {
-  return (   
+  return ( 
+    <div>
+         <div className="bg-color-yellow py-4">
+        <Container className="gx-5 gy-5">
+          <h1 className="text-center mb-4">Dogs</h1>
+          <p className="text-center mb-5 yellow-text">
+            Every dog at Hope Tails Rescue has a unique story and is looking for a loving forever home.
+             Browse their profiles to learn more about their personalities, needs, 
+             and journey so far — your new best friend might be just a scroll away. 
+          </p>
+        </Container>
+      </div>
+
+      <div className='bg-color-grey py-4'>
         <Container>
           <Row className="justify-content-center gx-4 gy-4">
             <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
@@ -263,8 +276,10 @@ function DogProfiles() {
             </div>
             </Col>
           </Row>
-        
+
         </Container>
+      </div>
+    </div>
   );
 }
 
