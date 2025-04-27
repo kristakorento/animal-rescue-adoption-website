@@ -1,0 +1,22 @@
+.bg-color-yellow {
+    background-color: #ffe6a0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.bg-color-grey{
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  h2, h3{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+  }
+  li{
+    text-align: center;
+  }
