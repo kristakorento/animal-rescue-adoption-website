@@ -5,7 +5,7 @@ import '../Nettisivujen_Tyylit/AdoptionPolicies.css'
 function Policies() {
   return (
     <div className="bg-color-grey">
-        <div className='bg-color-yellow'>
+        <div className='bg-color-yellow p-5'>
             <h1 className="p-3 fw-bold text-decoration-underline">Adoption Policies</h1>
             <p>
                 Adopting a rescue dog is a big step — and we’re here to make it smooth and transparent. On this page, you’ll find details about our reservation process, and what’s required from adopters.
@@ -15,7 +15,7 @@ function Policies() {
             </p>
         </div>
 
-     <div className='bg-color-grey'>
+     <div className='bg-color-grey p-5'>
      <h2 className="p-3 fw-bold text-decoration-underline">Reservation & Cancellation Policy</h2>
       <p>
         We understand that adopting a dog is a big commitment — and we want to make sure it's the right fit for both you and the dog.
@@ -44,7 +44,8 @@ function Policies() {
       </p>
 
      </div>
-      <h2 className="p-3 fw-bold text-decoration-underline">Adoption Eligibility Criteria</h2>
+     <div className="bg-color-yellow p-5">
+     <h2 className="p-3 fw-bold text-decoration-underline">Adoption Eligibility Criteria</h2>
       <p>
         We’re committed to making matches that are safe, stable, and lifelong. To adopt from Hope Tails Rescue, applicants must:
       </p>
@@ -75,6 +76,7 @@ function Policies() {
       <p>
         All decisions are made with the dog's best interest at heart. If your application is not approved, we’re happy to discuss why and help guide you to a better match if possible.
       </p>
+     </div>
     </div>
   );
 }

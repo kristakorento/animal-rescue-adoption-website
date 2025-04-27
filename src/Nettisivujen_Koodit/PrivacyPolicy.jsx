@@ -5,7 +5,7 @@ import '../Nettisivujen_Tyylit/PrivacyPolicy.css';
 function PrivacyPolicy(){
     return(
         <div className='bg-color-grey'>
-        <div className='bg-color-yellow' style={{ backgroundColor: "#ffe08a", padding: "2rem", textAlign: "center" }}>
+        <div className='bg-color-yellow p-5' style={{ backgroundColor: "#ffe08a", padding: "2rem", textAlign: "center" }}>
           <h1>Privacy Policy</h1>
           <p>
             We are committed to protecting your personal data and ensuring your privacy is respected.

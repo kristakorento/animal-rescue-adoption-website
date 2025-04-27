@@ -5,20 +5,22 @@ import { Container, Row, Col } from "react-bootstrap";
 function FeesAndProcess(){
     return (
         <div className='bg-color-grey'>
-          <div className='bg-color-yellow' style={{ backgroundColor: "#ffe08a", padding: "2rem", textAlign: "center" }}>
-            <h1>Adoption Process</h1>
-            <h3>Adoption Process & Fees</h3>
-            <p className='info'>
-            Adopting a rescue dog is a life-changing experience — for both you and the dog. At Hope Tails Rescue, 
-            we believe in thoughtful, well-matched adoptions that lead to lifelong companionship. That’s why we’ve created a 
-            clear, step-by-step process to help guide you from the first meet-and-greet to welcoming your new best friend home.  <br />
+            <div className='bg-color-yellow p-5 d-flex justify-content-center' style={{ backgroundColor: "#ffe08a", textAlign: "center" }}>
+                <div className='w-50'>
+                    <h1>Adoption Process</h1>
+                    <h3>Adoption Process & Fees</h3>
+                    <p className='info'>
+                        Adopting a rescue dog is a life-changing experience — for both you and the dog. At Hope Tails Rescue, 
+                        we believe in thoughtful, well-matched adoptions that lead to lifelong companionship. That’s why we’ve created a 
+                        clear, step-by-step process to help guide you from the first meet-and-greet to welcoming your new best friend home.  <br />
 
-            <br />Whether you're a first-time adopter or an experienced dog parent, we’ll be with you every step of the way.   
-            </p>
+                    <br />Whether you're a first-time adopter or an experienced dog parent, we’ll be with you every step of the way.   
+                </p>
+                </div>
           </div>
     
           <Container className="my-5">
-            <div className='bg-color-grey'>
+            <div className='bg-color-grey p-5'>
               <Row className="justify-content-center"  style={{ margintop:"4rem" ,marginBottom: "4rem"}}>
                 <Col md={8} lg={6} className="text-center">
                     <h3>Step-by-Step Adoption Process</h3>
@@ -27,43 +29,43 @@ function FeesAndProcess(){
                     </p>
                     <div className='adoption-process'>
                         <ul>
-                            <li>1. Explore Available Dogs</li>
+                            <h3>1. Explore Available Dogs</h3>
                             <p>
                                 Browse the dogs currently at our shelter in Finland. Each dog has a unique personality, story, and set of needs — 
                                 read their profiles carefully to see who might be the right fit for you.
                             </p>
-                            <li>2. Visit & Submit an Adoption Application</li>
+                            <h3>2. Visit & Submit an Adoption Application</h3>
                             <p>
                                 Once you’ve found a dog you’re interested in, visit us at our shelter to meet the dog in person and 
                                 fill out our adoption form. In the form, you’ll tell us about your home, lifestyle, experience with dogs,
                                 and what you're looking for in a companion. 
                             </p>
-                            <li>3. Application Review & Phone Interview</li>
+                            <h3>3. Application Review & Phone Interview</h3>
                             <p>
                                 After your visit, our team will review your application. If we feel you could be a good match, 
                                 we’ll contact you for a phone interview to talk more about the dog, answer your questions, and go over the next steps. 
                             </p>
-                            <li>4. Follow-Up Meet & Greet (If Needed)</li>
+                            <h3>4. Follow-Up Meet & Greet (If Needed)</h3>
                             <p>
                                 If more time with the dog is needed, we’ll invite you for another one-on-one visit at our shelter. 
                                 This gives you both a chance to connect in a relaxed environment and see if it feels like the right match. 
                             </p>
-                            <li>5. 5. Reservation (Optional)</li>
+                            <h3>5. 5. Reservation (Optional)</h3>
                             <p>
                                 If you’re confident in your decision but need a few days to prepare,
                                 you can reserve the dog for up to 7 days with a non-refundable deposit. 
                                 See our Reservation Policy for more details. 
                             </p>
-                            <li>6. Home Check (Virtual or In-Person)</li>
+                            <h3>6. Home Check (Virtual or In-Person)</h3>
                             <p>
                                 Before finalizing the adoption, we may do a brief home check to ensure the environment is safe and suitable for the dog.
                             </p>
-                            <li>7. Adoption Contract & Payment</li>
+                            <h3>7. Adoption Contract & Payment</h3>
                             <p>
                                 Once approved, we’ll go through the adoption contract together. 
                                 You’ll pay the remaining adoption fee and receive the dog’s medical records and EU pet passport. 
                             </p>
-                            <li>8. Welcome Home!</li>
+                            <h3>8. Welcome Home!</h3>
                             <p>
                                 It’s time to bring your new family member home! We’ll continue to support you with advice, care tips, and post-adoption guidance. 
                             </p>
@@ -118,7 +120,7 @@ function FeesAndProcess(){
             </div>
           </Container>
     
-          <div className='bg-color-yellow' style={{ backgroundColor: "#ffe08a", padding: "2rem", textAlign: "center" }}>
+          <div className='bg-color-yellow p-5' style={{ backgroundColor: "#ffe08a", padding: "2rem", textAlign: "center" }}>
             <h3>Post-Adoption Support</h3>
             <p>We offer Post-Adoption Support for every adoption. 
                 You can read more about it on our <a href="InfoGuides.jsx">Infos & Guides page</a> 

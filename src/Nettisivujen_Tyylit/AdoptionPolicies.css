@@ -17,6 +17,15 @@
   p{
     text-align: center;
   }
-  li{
+  ul {
+    list-style-position: inside;
+    padding-left: 0;
     text-align: center;
   }
+  
+  li {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+  }
+  
