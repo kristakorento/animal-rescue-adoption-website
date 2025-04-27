@@ -7,10 +7,6 @@
   margin-left: 50px !important;
 }
 
-/* .footer-contacts{
-  padding-right: 120px !important;
-} */
-
 .footer-contact-icons{
   border: solid black 1px;
   border-radius: 7px;
@@ -27,6 +23,14 @@
 
 .bi-telephone-fill{
   padding: 4px;
+}
+
+.footer-contacts {
+  text-align: left;
+}
+
+.footer-contacts p {
+  text-align: left; 
 }
 
 /* .bi-question-lg{
@@ -84,16 +88,8 @@
     /* margin: 0px 20px !important; */
   }
 }
-/* 
-@media (min-width: 576px) {
-  .container, .container-sm {
-      max-width: 700px !important;
-  }
-} */
+
 
 @media only screen and (max-width: 575px) {
-  .footer-contacts{
-    padding-left: 10% !important;
-    padding-right: 10% !important;
-  }
+
 }
