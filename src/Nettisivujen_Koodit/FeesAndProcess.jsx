@@ -120,7 +120,7 @@ function FeesAndProcess(){
             </div>
           </Container>
     
-          <div className='bg-color-yellow p-5' style={{ padding: "2rem", textAlign: "center" }}>
+          <div className='bg-color-yellow p-5' style={{padding: "2rem", textAlign: "center" }}>
             <h3>Post-Adoption Support</h3>
             <p>We offer Post-Adoption Support for every adoption. 
                 You can read more about it on our <a href="InfoGuides.jsx">Infos & Guides page</a> 
