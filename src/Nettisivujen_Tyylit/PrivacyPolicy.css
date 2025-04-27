@@ -1,81 +1,36 @@
-body {
-  margin: 0;
-  padding: 0;
-}
 .bg-color-yellow {
-<<<<<<< HEAD
     background-color: #ffe6a0;
-    position: relative;
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  
-  .bg-color-gray{
-    background-color: #f2f2f2;
     margin: 0;
     padding: 0;
     width: 100%;
+    text-align: center;
   }
   
-=======
-  background-color: #ffe6a0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  text-align: justify;
-  color: black;
-}
-.yellow-text{
-  color: black;
-}
-
-.bg-color-grey{
-  background-color: #f2f2f2;
-  margin: 0;
-  padding: 0;
-  /* width: 100%; */
-  text-align: justify;
-}
-ul{
-  list-style: none;
-  color: black;
-}
-.nimi-otsikko {
-  font-weight: bold;    
-  text-decoration: underline;
-  color: black;
-}
-.ala-otsikko {
-  font-style: italic;
-  font-size: 1.25rem;
-  font-family: Arial, Helvetica, sans-serif;
-  color: black;
-}
-.normi-teskti{
-  color: black;
-}
-.image-container img {
-  width: 100%; 
-  height: auto; 
-}
-
-.white-background {
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  margin: 10px;
-  border-radius: 10px;
-}
-
-.text-container {
-  width: 100%; 
-  padding: 10px;
-}
->>>>>>> f9d634d3032c18676fceac97866f69e219113840
+  .bg-color-grey{
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+  }
+  h1{
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  h3{
+    font-style: italic;
+  }
+  p{
+    text-align: justify;
+  }
+  ul, li{
+    text-align: justify;
+  }
+  
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
-    
+    .homepage-img {
+      width: 100%;
+    }
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */

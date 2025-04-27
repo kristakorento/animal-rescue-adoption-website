@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import FrontPage from './Nettisivujen_Koodit/FrontPage';
 import TrialAdoption from './Nettisivujen_Koodit/TrialAdoption';
 import PrivacyPolicy from './Nettisivujen_Koodit/PrivacyPolicy';
-import PreApproval from './Nettisivujen_Koodit/PreApproval';
 import Policies from './Nettisivujen_Koodit/Policies';
 import InfoGuides from './Nettisivujen_Koodit/InfoGuides';
 import FeesAndProcess from './Nettisivujen_Koodit/FeesAndProcess';
@@ -50,7 +49,6 @@ function App() {
         <Route path="/" element={<FrontPage />} />
         <Route path="/adoption/trial-adoption" element={<TrialAdoption />} />
         <Route path="/contact-details/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/contact-details/pre-approval" element={<PreApproval />} />
         <Route path="/adoption/policies" element={<Policies />} />
         <Route path="/adoption/info-guides" element={<InfoGuides />} />
         <Route path="/adoption/fees-and-process" element={<FeesAndProcess />} />

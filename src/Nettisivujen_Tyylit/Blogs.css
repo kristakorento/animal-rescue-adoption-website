@@ -10,3 +10,7 @@
   object-fit: cover;
   width: 100%;
 }
+
+.blogpost-title {
+  font-size: 1.25rem !important;
+}
