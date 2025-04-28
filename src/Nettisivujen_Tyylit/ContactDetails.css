@@ -14,7 +14,9 @@
   h1, h3{
     text-align: center;
   }
-  
+.link-bold{
+  font-weight: bold;
+}  
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     .homepage-img {

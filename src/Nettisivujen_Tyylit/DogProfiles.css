@@ -19,8 +19,8 @@ body {
   
 .white-background{
   background-color: #ffe6a0;
-  margin: 0;
-  padding: 0;
+  margin-bottom: 2rem;
+  padding: 2rem;
   width: 100%;
   text-align: justify;
   color: black;
@@ -37,7 +37,6 @@ body {
   text-align: justify;
 }
 ul{
-  list-style: none;
   color: black;
 }
 .nimi-otsikko {
@@ -45,9 +44,7 @@ ul{
   color: black;
 }
 .ala-otsikko {
-  font-style: italic;
   font-size: 1.25rem;
-  font-family: Arial, Helvetica, sans-serif;
   color: black;
 }
 .normi-teskti{
@@ -60,7 +57,6 @@ ul{
 
 .white-background {
   background-color: white;
-  height: 100%; /* tärkeä! venyy täyteen korkeuteen */
   display: flex;
   flex-direction: column;
   border-radius: 15px;

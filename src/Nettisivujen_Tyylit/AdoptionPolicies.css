@@ -17,15 +17,12 @@
   p{
     text-align: center;
   }
-  ul {
-    list-style-position: inside;
-    padding-left: 0;
-    text-align: center;
+  ul{
+    list-style-type: circle;
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: column;
   }
-  
-  li {
-    display: inline-block;
-    text-align: left;
-    margin: 0 auto;
+  li{
+    display: list-item;
   }
-  

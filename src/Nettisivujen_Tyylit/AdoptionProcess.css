@@ -26,7 +26,15 @@ bg-color-yellow {
     width: 100%;
     text-align: center;
   }
-  
+  ul{
+    list-style-type: circle;
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: column;
+  }
+  li{
+    display: list-item;
+  }
   .bg-color-grey{
     background-color: #f2f2f2;
     margin: 0;
@@ -34,6 +42,12 @@ bg-color-yellow {
     /* width: 100%; */
     align-items: center;
   }
+  .link-bold{
+    font-weight: bold;
+  }
+  .important-notes ul li {
+    text-align: left;
+}
   
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {

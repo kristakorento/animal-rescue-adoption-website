@@ -27,7 +27,7 @@ function DogProfiles() {
         <Container>
           <Row className="justify-content-center gx-4 gy-4">
             <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
-            <div className="white-background p-3">
+            <div className="white-background p-3 h-100">
               <div className="image-container">
                 <img src={amerikanstaffordshirenterrieri} alt="Kuva 1" className="img-fluid rounded shadow" />
               </div>
@@ -61,7 +61,7 @@ function DogProfiles() {
             </Col>
             
             <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
-            <div className="white-background p-3">
+            <div className="white-background p-3 h-100">
               <div className="image-container">
                 <img src={cockapoo} alt="Kuva 1" className="img-fluid rounded shadow" />
               </div>
@@ -95,7 +95,7 @@ function DogProfiles() {
             </Col>
 
             <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
-            <div className="white-background p-3">
+            <div className="white-background p-3 h-100">
               <div className="image-container">
                 <img src={corgi} alt="Kuva 1" className="img-fluid rounded shadow" />
               </div>
@@ -129,7 +129,7 @@ function DogProfiles() {
             </Col>
 
             <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
-            <div className="white-background p-3">
+            <div className="white-background p-3 h-100">
               <div className="image-container">
                 <img src={bulldog} alt="Kuva 1" className="img-fluid rounded shadow" />
               </div>
@@ -167,7 +167,7 @@ function DogProfiles() {
             </Col>
 
             <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
-            <div className="white-background p-3">
+            <div className="white-background p-3 h-100">
               <div className="image-container">
                 <img src={labradorinnoutaja} alt="Kuva 1" className="img-fluid rounded shadow" />
               </div>
@@ -201,7 +201,7 @@ function DogProfiles() {
             </Col>
 
             <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
-            <div className="white-background p-3">
+            <div className="white-background p-3 h-100">
               <div className="image-container">
                 <img src={merlesekarotu} alt="Kuva 1" className="img-fluid rounded shadow" />
               </div>
@@ -238,7 +238,7 @@ function DogProfiles() {
 
           <Row className="justify-content-start gx-4 gy-4">
             <Col xs={12} sm={6} md={4} lg={4} className="mb-3">
-            <div className="white-background p-3">
+            <div className="white-background p-3 h-100">
               <div className="image-container">
                 <img src={sekarotu} alt="Kuva 1" className="img-fluid rounded shadow" />
               </div>
