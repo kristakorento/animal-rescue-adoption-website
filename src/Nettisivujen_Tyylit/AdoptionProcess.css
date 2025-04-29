@@ -1,12 +1,12 @@
 .info{
     align-items: center;
 }
-.info, p{
+/* .info, p{
     text-align: center;
-}
-p{
+} */
+/* p{
     text-align: center;
-}
+} */
 .important-notes li{
     align-items: center;
     text-align: center;
@@ -29,7 +29,7 @@ bg-color-yellow {
   ul{
     list-style-type: circle;
     display: flex;
-    gap: 2.5rem;
+    /* gap: 2.5rem; */
     flex-direction: column;
   }
   li{

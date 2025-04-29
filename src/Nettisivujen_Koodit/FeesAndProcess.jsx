@@ -102,25 +102,28 @@ function FeesAndProcess(){
                             The adoption process usually takes about 1 to 2 weeks, depending on how quickly each step is completed. <br /> <br />
                         <p style={{fontWeight: 'bold'}}>Here's a general overview: </p>
                         </p>
-                        <ul className="white-background p-6">
+                        <div className="text-start info-list">
+                        <ul>
                             <li>Application Review: 2–5 days</li>
                             <li>Interview & Communication: 2–3 days</li>
                             <li>Meet & Greet / Reservation: Within 7 days</li>
                             <li>Home Check & Finalization: 2–5 days</li>
                             <li>Adoption Completion: Usually within 14 days from application</li>
                         </ul>
+                        </div>
                         <p>
                             We prioritize quality matches over speed — thank you for your patience and understanding. 
                         </p>
                     </div>
 
-                    <div className='adoption-fees'>
+                    <div className='adoption-fees text-center'>
                         <h1>Adoption Fees</h1>
                         <p>
                             At Hope Tails Rescue, our adoption fee helps cover a portion of the costs involved in rescuing, 
                             caring for, and transporting our dogs safely to Finland. Every adopted dog receives:  
                         </p>
-                        <ul className="white-background p-6">
+                        <div className="text-start info-list">
+                        <ul>
                             <li>Vaccinations (core + rabies)</li>
                             <li>Microchipping</li>
                             <li>EU Pet Passport</li>
@@ -130,6 +133,7 @@ function FeesAndProcess(){
                             <li>Travel from Spain to our shelter in Finland</li>
                             <li>Ongoing care and behavioral observation</li>
                         </ul>
+                        </div>
                         <p>Current Adoption Fee: 450–500€ <br /> </p>
                         <p>(Please note: fees may vary slightly based on age, medical needs, or travel costs.) <br /> </p>
                         <p>Your adoption fee allows us to continue saving more dogs in need. Thank you for supporting ethical, responsible rescue!</p>
@@ -148,7 +152,8 @@ function FeesAndProcess(){
             <div className='important-notes'>
                 <h1>Important Notes</h1>
                 <Col md={8} lg={6} className="m-auto">
-                <ul className="white-background p-6 *:">
+                <div className="text-start info-list">
+                <ul className=" *:">
                     <li>We do not operate on a "first come, first served" basis. Our goal is to find the right home for each dog.</li>
                     <li>All our dogs are adopted from our shelter in Finland — we do not ship dogs or adopt without meeting in person.</li>
                     <li>If you’re unsure about adopting, ask us about our trial adoption option. 
@@ -156,6 +161,7 @@ function FeesAndProcess(){
                     </li>
                     <li>Some dogs may require more time, patience, or experience. We will always be honest about their needs.</li>
                 </ul>
+                </div>
                 </Col>
             </div>
 

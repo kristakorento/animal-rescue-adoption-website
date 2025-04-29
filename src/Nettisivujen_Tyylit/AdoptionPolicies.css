@@ -14,13 +14,13 @@
   h2, h3{
     text-align: center;
   }
-  p{
+  /* p{
     text-align: center;
-  }
+  } */
   ul{
     list-style-type: circle;
     display: flex;
-    gap: 2.5rem;
+    /* gap: 2.5rem; */
     flex-direction: column;
   }
   li{

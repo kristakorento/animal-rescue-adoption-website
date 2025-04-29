@@ -28,13 +28,15 @@ function PrivacyPolicy(){
             <p style={{ lineHeight: "2.0"}}>
               We collect your information to:
             </p>
-            <ul className="white-background p-6">
+            <div className="text-start info-list">
+            <ul>
               <li>Provide, manage, and improve our services.</li>
               <li>Communicate with you, including responding to your inquiries and providing customer support.</li>
               <li>Process transactions securely.</li>
               <li>Send you important updates, promotional materials, or other information (you can opt out at any time).</li>
               <li>Comply with legal obligations.</li>
             </ul>
+            </div>
 
             <h1>How We Store and Protect Your Data</h1>
             <p style={{ lineHeight: "2.0"}}>Your data is stored securely using encryption, access controls, and other 
@@ -59,13 +61,15 @@ function PrivacyPolicy(){
             <p style={{ lineHeight: "2.0"}}> 
              If you are located in the European Economic Area (EEA), you have the following rights:
             </p>
-            <ul className="white-background p-6">
+            <div className="text-start info-list">
+            <ul>
               <li>The right to access, correct, update, or request deletion of your personal information.</li>
               <li>The right to object to or restrict our processing of your data.</li>
               <li>The right to withdraw your consent at any time.</li>
               <li>The right to data portability.</li>
               <li>The right to lodge a complaint with a data protection authority.</li>
             </ul>
+            </div>
           </Col>
         </Row>
       </Container>

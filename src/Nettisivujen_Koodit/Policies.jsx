@@ -23,7 +23,8 @@ function Policies() {
       </p>
 
       <h2 className=" text-dark p-3 fw-bold">Reservation Policy:</h2>
-      <ul className="white-background p-6">
+      <div className="text-start info-list">
+      <ul>
           <li>
             Once your application is approved, you may reserve a dog for up to 7 days.
           </li>
@@ -34,9 +35,11 @@ function Policies() {
             During the reservation period, we pause all other applications for that dog.
           </li>
       </ul>
+      </div>
 
       <h2 className="p-3 fw-bold">Cancellation Policy</h2>
-      <ul className="white-background p-6">
+      <div className="text-start info-list">
+      <ul>
         <li>
             If you decide to cancel the adoption after placing a reservation, the deposit is non-refundable.
         </li>
@@ -47,6 +50,7 @@ function Policies() {
           Please reserve responsibly. A reservation temporarily removes a dog from our adoption list, which can delay their chance to find a forever home. We appreciate your understanding and commitment.
         </li>
       </ul>
+      </div>
       </Col>
      
         <div className="bg-color-yellow  d-flex flex-column align-items-center p-5">
@@ -59,7 +63,8 @@ function Policies() {
         <p>
           We’re committed to making matches that are safe, stable, and lifelong. To adopt from Hope Tails Rescue, applicants must:
         </p>
-        <ul className="white-background p-6">
+        <div className="text-start info-list">
+        <ul>
             <li>Be at least 18 years old</li>
             <li>Reside in Finland (or be able to travel to our shelter for adoption)</li>
             <li>Have written consent from all household members</li>
@@ -68,6 +73,7 @@ function Policies() {
             <li>Understand the unique needs of rescue dogs and commit to giving them time, patience, and training</li>
             <li>Agree to a home check (virtual or in-person) and follow-up after adoption</li>
         </ul>
+        </div>
       <p>
         We do not prioritize based on who applies first — we focus on finding the best match for the dog’s individual needs.
       </p>
@@ -77,13 +83,15 @@ function Policies() {
         <p>
           While we deeply appreciate everyone who opens their heart to a rescue dog, we also have a responsibility to protect their well-being. We may deny an adoption application if:
         </p>
-        <ul className="white-background p-6">
-          <li>The applicant does not meet our eligibility requirements</li>
-          <li>The home or lifestyle is not a suitable match for the specific dog</li>
-          <li>There is a history of animal neglect, abuse, or rehoming pets</li>
-          <li>The applicant is seeking a dog for guarding, breeding, or resale</li>
-          <li>We have concerns about long-term commitment, stability, or understanding of rescue dog needs</li>
-        </ul>
+        <div className="text-start info-list">
+          <ul>
+            <li>The applicant does not meet our eligibility requirements</li>
+            <li>The home or lifestyle is not a suitable match for the specific dog</li>
+            <li>There is a history of animal neglect, abuse, or rehoming pets</li>
+            <li>The applicant is seeking a dog for guarding, breeding, or resale</li>
+            <li>We have concerns about long-term commitment, stability, or understanding of rescue dog needs</li>
+          </ul>
+        </div>
       </div>
       <p>
         All decisions are made with the dog's best interest at heart. If your application is not approved, we’re happy to discuss why and help guide you to a better match if possible.
