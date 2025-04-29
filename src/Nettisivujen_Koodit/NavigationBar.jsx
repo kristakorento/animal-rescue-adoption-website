@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Navbar, Nav, NavDropdown, Container, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom"; // Import useLocation
 import { LinkContainer } from "react-router-bootstrap";
-import logo from "../assets/images/logo-ympyrä.png"
+import logo from "../assets/images/Logo-navi.png";
 import "../Nettisivujen_Tyylit/NavigationBar.css";
 
 const NavigationBar = () => {
@@ -11,7 +11,8 @@ const NavigationBar = () => {
   const [expanded, setExpanded] = useState(false);
   const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 992);
 
-  //Change hover effect on dropdowns based on screen size
+  const location = useLocation(); // Get the current route
+
   useEffect(() => {
     const handleResize = () => {
       setIsLargeScreen(window.innerWidth >= 992);
@@ -24,7 +25,6 @@ const NavigationBar = () => {
     setExpanded(false);
   };
 
-  //Close dropdowns when clicking outside
   const handleDropdownClick = (dropdown) => {
     if (dropdown === "adoption") {
       setAdoptionOpen(!adoptionOpen);
@@ -36,14 +36,14 @@ const NavigationBar = () => {
   };
 
   const handleTitleClick = () => {
-    setExpanded(false); // Close the burger menu when a title is clicked
-    setAdoptionOpen(false); // Close all dropdowns
+    setExpanded(false);
+    setAdoptionOpen(false);
     setContactOpen(false);
   };
 
   const handlePageClick = () => {
-    setExpanded(false); // Close the burger menu when a page is clicked
-    setAdoptionOpen(false); // Close all dropdowns
+    setExpanded(false);
+    setAdoptionOpen(false);
     setContactOpen(false);
   };
 
@@ -64,9 +64,11 @@ const NavigationBar = () => {
           onClick={() => setExpanded(!expanded)}
         />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto" onSelect={handlePageClick} activeKey="/">
+          <Nav className="ms-auto" onSelect={handlePageClick} activeKey={location.pathname}>
             <LinkContainer to="/">
-              <Nav.Link className="nav-title">Home</Nav.Link>
+              <Nav.Link className="nav-title" active={location.pathname === "/"}>
+                Home
+              </Nav.Link>
             </LinkContainer>
 
             {/* Adoption Section */}
@@ -83,8 +85,8 @@ const NavigationBar = () => {
                   <Button
                     className="dropdown-toggle-button"
                     onClick={(e) => {
-                      e.preventDefault()
-                      handleDropdownClick("adoption")
+                      e.preventDefault();
+                      handleDropdownClick("adoption");
                     }}
                   >
                     ▼
@@ -95,6 +97,7 @@ const NavigationBar = () => {
               show={adoptionOpen}
               onMouseEnter={() => isLargeScreen && setAdoptionOpen(true)}
               onMouseLeave={() => isLargeScreen && setAdoptionOpen(false)}
+              active={location.pathname.startsWith("/adoption")}
             >
               <LinkContainer to="/adoption/info-guides">
                 <NavDropdown.Item onClick={handlePageClick}>
@@ -124,7 +127,11 @@ const NavigationBar = () => {
             </NavDropdown>
 
             <LinkContainer to="/dog-profiles">
-              <Nav.Link className="nav-title" onClick={handlePageClick}>
+              <Nav.Link
+                className="nav-title"
+                onClick={handlePageClick}
+                active={location.pathname === "/dog-profiles"}
+              >
                 Dogs
               </Nav.Link>
             </LinkContainer>
@@ -143,7 +150,7 @@ const NavigationBar = () => {
                   <Button
                     className="dropdown-toggle-button"
                     onClick={(e) => {
-                      e.preventDefault()
+                      e.preventDefault();
                       handleDropdownClick("contact");
                     }}
                   >
@@ -155,6 +162,7 @@ const NavigationBar = () => {
               show={contactOpen}
               onMouseEnter={() => isLargeScreen && setContactOpen(true)}
               onMouseLeave={() => isLargeScreen && setContactOpen(false)}
+              active={location.pathname.startsWith("/contact-details")}
             >
               <LinkContainer to="/contact-details/privacy-policy">
                 <NavDropdown.Item onClick={handlePageClick}>
@@ -164,7 +172,13 @@ const NavigationBar = () => {
             </NavDropdown>
 
             <LinkContainer to="/blogs">
-              <Nav.Link className="nav-title" onClick={handlePageClick}>Blog</Nav.Link>
+              <Nav.Link
+                className="nav-title"
+                onClick={handlePageClick}
+                active={location.pathname === "/blogs"}
+              >
+                Blog
+              </Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
