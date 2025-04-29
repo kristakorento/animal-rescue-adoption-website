@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Form, Button, Container, Row, Col, Alert } from "react-bootstrap";
 import "../Nettisivujen_Tyylit/ContactDetails.css";
+import partners from '../assets/images/Partners.png'
 
 function ContactDetails() {
   const [formData, setFormData] = useState({
@@ -176,10 +177,8 @@ function ContactDetails() {
       </Container>
 
       <div className="bg-color-yellow text-center py-5 w-100">
-            <h2 className='mb-4'>Need Help Fast?</h2>
-            <p>
-                Check out our <a className='link-bold' href="/adoption/faq">FAQ</a> section for quick answers to common questions or scroll on our site for more info on the subject. 
-            </p>
+            <h2 className='mb-4'>Partners</h2>
+            <img src={partners} alt="" srcset="" />
       </div>
     </div>
   );
