@@ -29,7 +29,7 @@ function DogProfiles() {
             <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
             <div className="white-background p-3 h-100">
               <div className="image-container">
-                <img src={amerikanstaffordshirenterrieri} alt="Kuva 1" className="img-fluid rounded shadow" />
+                <img src={amerikanstaffordshirenterrieri} alt="Dog stopped running at crassfield to look into camera. Dog that is looking at camera is orange brown short haired puppy with black white detail face." className="img-fluid rounded shadow" />
               </div>
 
               <div className="text-container ">
@@ -63,7 +63,7 @@ function DogProfiles() {
             <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
             <div className="white-background p-3 h-100">
               <div className="image-container">
-                <img src={cockapoo} alt="Kuva 1" className="img-fluid rounded shadow" />
+                <img src={cockapoo} alt="Beige fluffy haired dog laying down in grass smiling and looking at camera with his dark brown button eyes. " className="img-fluid rounded shadow" />
               </div>
 
               <div className="text-container">
@@ -97,7 +97,7 @@ function DogProfiles() {
             <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
             <div className="white-background p-3 h-100">
               <div className="image-container">
-                <img src={corgi} alt="Kuva 1" className="img-fluid rounded shadow" />
+                <img src={corgi} alt="Dog is chilling smiling at camera straight ahead. Dog is carrot orange colored and face is white with tiny little legs laying in crass patch." className="img-fluid rounded shadow" />
               </div>
 
               <div className="text-container">
@@ -131,7 +131,7 @@ function DogProfiles() {
             <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
             <div className="white-background p-3 h-100">
               <div className="image-container">
-                <img src={bulldog} alt="Kuva 1" className="img-fluid rounded shadow" />
+                <img src={bulldog} alt="This little energetic looking lady dog is playing with ball at same time while she is looking at camera straigh ahead. She is white, ears dark brown from inside and face details are black." className="img-fluid rounded shadow" />
               </div>
 
               <div className="text-container">
@@ -169,13 +169,13 @@ function DogProfiles() {
             <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
             <div className="white-background p-3 h-100">
               <div className="image-container">
-                <img src={labradorinnoutaja} alt="Kuva 1" className="img-fluid rounded shadow" />
+                <img src={labradorinnoutaja} alt="Pitch black gentle giant looking young male dog looking at his bone treat. " className="img-fluid rounded shadow" />
               </div>
 
               <div className="text-container">
                 <h2 className="mt-3 nimi-otsikko">Milo</h2>
                 <p className='normi-teskti'> <b>Breed:</b> Labrador Retriever</p>
-                <p className='normi-teskti'> <b>Age:</b> years</p>
+                <p className='normi-teskti'> <b>Age:</b> 4 years</p>
                 <p className='normi-teskti'> <b>Gender:</b> Male</p>
                 <h3 className='ala-otsikko'>About Milo:</h3>
                 <p className='normi-teskti'>
@@ -203,7 +203,7 @@ function DogProfiles() {
             <Col xs={12} sm={6} md={4} lg={4} class='col-4' className="mb-3">
             <div className="white-background p-3 h-100">
               <div className="image-container">
-                <img src={merlesekarotu} alt="Kuva 1" className="img-fluid rounded shadow" />
+                <img src={merlesekarotu} alt="Ash brown black dalmatian print dog looking at camera." className="img-fluid rounded shadow" />
               </div>
 
               <div className="text-container">
@@ -240,7 +240,7 @@ function DogProfiles() {
             <Col xs={12} sm={6} md={4} lg={4} className="mb-3">
             <div className="white-background p-3 h-100">
               <div className="image-container">
-                <img src={sekarotu} alt="Kuva 1" className="img-fluid rounded shadow" />
+                <img src={sekarotu} alt="This miss puppy is beige colored and she is laying down at under the tree in shade from sun. " className="img-fluid rounded shadow" />
               </div>
 
               <div className="text-container">
