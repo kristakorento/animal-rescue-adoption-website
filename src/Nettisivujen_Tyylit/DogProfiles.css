@@ -38,9 +38,9 @@ body {
 }
 ul{
   color: black;
+  list-style: disc;
 }
-.nimi-otsikko {
-  font-weight: bold;    
+.nimi-otsikko {  
   color: black;
 }
 .ala-otsikko {

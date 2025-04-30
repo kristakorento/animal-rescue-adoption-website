@@ -12,9 +12,9 @@ import sekarotu from '../assets/images/sekarotu.jpg'
 function DogProfiles() {
   return ( 
     <div>
-      <div className="bg-color-yellow py-4">
+      <div className="bg-color-yellow py-4 p-5">
         <Container className="gx-5 gy-5">
-          <h1 className="text-center mb-4">Dogs</h1>
+          <h1 className="text-center mb-4 pb-3">Dogs</h1>
           <p className="text-center mb-5 yellow-text">
             Every dog at Hope Tails Rescue has a unique story and is looking for a loving forever home.
             Browse their profiles to learn more about their personalities, needs, 
@@ -34,9 +34,9 @@ function DogProfiles() {
 
               <div className="text-container ">
                 <h2 className="mt-3 nimi-otsikko">Nala</h2>
-                <p className='normi-teskti'>Breed: American Staffordshire Terrier</p>
-                <p className='normi-teskti'>Age: 7 months</p>
-                <p className='normi-teskti'>Gender: Female </p>
+                <p className='normi-teskti'><b>Breed:</b> American Staffordshire Terrier</p>
+                <p className='normi-teskti'> <b>Age:</b>  7 months</p>
+                <p className='normi-teskti'> <b>Gender:</b> Female </p>
                 <h3 className='ala-otsikko'>About Nala:</h3>
                 <p className='normi-teskti'>Nala is a sweet and active young pup who loves playtime and people. 
                   She’s curious, smart, and already knows basic commands like sit and stay. 
@@ -45,11 +45,11 @@ function DogProfiles() {
 
                 <h3 className='ala-otsikko'>Health Info:</h3>
                 <ul>
-                  <li>- Vaccinated (core + rabies)</li>
-                  <li>- Microchipped</li>
-                  <li>- Sterilized</li>
-                  <li>- EU Pet Passport</li>
-                  <li>- Vet-checked and parasite-treated</li>
+                  <li>Vaccinated (core + rabies)</li>
+                  <li>Microchipped</li>
+                  <li>Sterilized</li>
+                  <li>EU Pet Passport</li>
+                  <li>Vet-checked and parasite-treated</li>
                 </ul>
 
                 <h3 className='ala-otsikko'>Ideal Home:</h3>
@@ -68,9 +68,9 @@ function DogProfiles() {
 
               <div className="text-container">
                 <h2 className="mt-3 nimi-otsikko">Teddy</h2>
-                <p className='normi-teskti'>Breed: Cockapoo (Cocker Spaniel x Poodle mix)</p>
-                <p className='normi-teskti'>Age: 2 years</p>
-                <p className='normi-teskti'>Gender: Male</p>
+                <p className='normi-teskti'> <b>Breed:</b> Cockapoo (Cocker Spaniel x Poodle mix)</p>
+                <p className='normi-teskti'> <b>Age:</b> 2 years</p>
+                <p className='normi-teskti'> <b>Gender:</b> Male</p>
                 <h3 className='ala-otsikko'>About Teddy:</h3>
                 <p className='normi-teskti'>Teddy is a cheerful little guy with a goofy personality and a heart of gold. He loves cuddles, 
                   soft blankets, and following you around the house. He’s friendly with other dogs and would do well in a 
@@ -79,11 +79,11 @@ function DogProfiles() {
 
                 <h3 className='ala-otsikko'>Health Info:</h3>
                 <ul>
-                  <li>- Vaccinated (core + rabies)</li>
-                  <li>- Microchipped</li>
-                  <li>- Sterilized</li>
-                  <li>- EU Pet Passport</li>
-                  <li>- Regular grooming recommended due to curly coat </li>
+                  <li>Vaccinated (core + rabies)</li>
+                  <li>Microchipped</li>
+                  <li>Sterilized</li>
+                  <li>EU Pet Passport</li>
+                  <li>Regular grooming recommended due to curly coat</li>
                 </ul>
 
                 <h3 className='ala-otsikko'>Ideal Home:</h3>
@@ -102,9 +102,9 @@ function DogProfiles() {
 
               <div className="text-container">
                 <h2 className="mt-3 nimi-otsikko">Max</h2>
-                <p className='normi-teskti'>Breed: Pembroke Welsh Corgi</p>
-                <p className='normi-teskti'>Age: 3 years</p>
-                <p className='normi-teskti'>Gender: Male</p>
+                <p className='normi-teskti'> <b>Breed:</b> Pembroke Welsh Corgi</p>
+                <p className='normi-teskti'> <b>Age:</b> 3 years</p>
+                <p className='normi-teskti'> <b>Gender:</b> Male</p>
                 <h3 className='ala-otsikko'>About Max:</h3>
                 <p className='normi-teskti'>Max is a cheerful little guy with a big personality packed into his short legs. 
                   He’s friendly with everyone he meets—humans and animals alike—and absolutely adores belly rubs and 
@@ -113,11 +113,11 @@ function DogProfiles() {
 
                 <h3 className='ala-otsikko'>Health Info:</h3>
                 <ul>
-                  <li>- Vaccinated (core + rabies)</li>
-                  <li>- Microchipped</li>
-                  <li>- Sterilized</li>
-                  <li>- EU Pet Passport</li>
-                  <li>- Back and hip health checked – no issues </li>
+                  <li>Vaccinated (core + rabies)</li>
+                  <li>Microchipped</li>
+                  <li>Sterilized</li>
+                  <li>EU Pet Passport</li>
+                  <li>Back and hip health checked – no issues </li>
                 </ul>
 
                 <h3 className='ala-otsikko'>Ideal Home:</h3>
@@ -136,9 +136,9 @@ function DogProfiles() {
 
               <div className="text-container">
                 <h2 className="mt-3 nimi-otsikko">Lulu</h2>
-                <p className='normi-teskti'>Breed: English Bulldog</p>
-                <p className='normi-teskti'>Age: 1 year</p>
-                <p className='normi-teskti'>Gender: Female</p>
+                <p className='normi-teskti'> <b>Breed:</b> English Bulldog</p>
+                <p className='normi-teskti'> <b>Age:</b> 1 year</p>
+                <p className='normi-teskti'> <b>Gender:</b> Female</p>
                 <h3 className='ala-otsikko'>About Lulu:</h3>
                 <p className='normi-teskti'>
                 Lulu is a playful sweetheart with a gentle nature and a love for toys—especially balls! 
@@ -148,14 +148,14 @@ function DogProfiles() {
 
                 <h3 className='ala-otsikko'>Health Info:</h3>
                 <ul>
-                  <li>- Vaccinated (core + rabies)</li>
-                  <li>- Microchipped</li>
-                  <li>- Sterilized</li>
-                  <li>- EU Pet Passport</li>
-                  <li>- Nasal passages and breathing checked—no current problems</li>
-                  <li>- Hips and joints look good—no issues</li>
-                  <li>- On a weight-controlled diet for healthy joints</li>
-                  <li>- Skin folds are healthy but should be cleaned regularly to prevent irritation.</li>
+                  <li>Vaccinated (core + rabies)</li>
+                  <li>Microchipped</li>
+                  <li>Sterilized</li>
+                  <li>EU Pet Passport</li>
+                  <li>Nasal passages and breathing checked—no current problems</li>
+                  <li>Hips and joints look good—no issues</li>
+                  <li>On a weight-controlled diet for healthy joints</li>
+                  <li>Skin folds are healthy but should be cleaned regularly to prevent irritation.</li>
                 </ul>
 
                 <h3 className='ala-otsikko'>Ideal Home:</h3>
@@ -174,9 +174,9 @@ function DogProfiles() {
 
               <div className="text-container">
                 <h2 className="mt-3 nimi-otsikko">Milo</h2>
-                <p className='normi-teskti'>Breed: Labrador Retriever</p>
-                <p className='normi-teskti'>Age: 4 years</p>
-                <p className='normi-teskti'>Gender: Male</p>
+                <p className='normi-teskti'> <b>Breed:</b> Labrador Retriever</p>
+                <p className='normi-teskti'> <b>Age:</b> years</p>
+                <p className='normi-teskti'> <b>Gender:</b> Male</p>
                 <h3 className='ala-otsikko'>About Milo:</h3>
                 <p className='normi-teskti'>
                 Milo is a gentle, loyal, and playful soul. He’s great with people of all ages and loves being part of a family. 
@@ -185,11 +185,11 @@ function DogProfiles() {
 
                 <h3 className='ala-otsikko'>Health Info:</h3>
                 <ul>
-                  <li>- Vaccinated (core + rabies)</li>
-                  <li>- Microchipped</li>
-                  <li>- Sterilized</li>
-                  <li>- EU Pet Passport</li>
-                  <li>- Hip and joint health checked – no issues</li>
+                  <li>Vaccinated (core + rabies)</li>
+                  <li>Microchipped</li>
+                  <li>Sterilized</li>
+                  <li>EU Pet Passport</li>
+                  <li>Hip and joint health checked – no issues</li>
                 </ul>
 
                 <h3 className='ala-otsikko'>Ideal Home:</h3>
@@ -208,9 +208,9 @@ function DogProfiles() {
 
               <div className="text-container">
                 <h2 className="mt-3 nimi-otsikko">Bruno</h2>
-                <p className='normi-teskti'>Breed: Catahoula Leopard Dog Mix</p>
-                <p className='normi-teskti'>Age: 5 years</p>
-                <p className='normi-teskti'>Gender: Male</p>
+                <p className='normi-teskti'> <b>Breed:</b> Catahoula Leopard Dog Mix</p>
+                <p className='normi-teskti'> <b>Age:</b> 5 years</p>
+                <p className='normi-teskti'> <b>Gender:</b> Male</p>
                 <h3 className='ala-otsikko'>About Bruno:</h3>
                 <p className='normi-teskti'>
                 Bruno is a gentle giant with a calm, loving nature. His soulful eyes and unique merle coat make him stand out, 
@@ -220,11 +220,11 @@ function DogProfiles() {
 
                 <h3 className='ala-otsikko'>Health Info:</h3>
                 <ul>
-                  <li>- Vaccinated (core + rabies)</li>
-                  <li>- Microchipped</li>
-                  <li>- Sterilized</li>
-                  <li>- EU Pet Passport</li>
-                  <li>- Eyes checked and hearing tested – no issues</li>
+                  <li>Vaccinated (core + rabies)</li>
+                  <li>Microchipped</li>
+                  <li>Sterilized</li>
+                  <li>EU Pet Passport</li>
+                  <li>Eyes checked and hearing tested – no issues</li>
                 </ul>
 
                 <h3 className='ala-otsikko'>Ideal Home:</h3>
@@ -245,9 +245,9 @@ function DogProfiles() {
 
               <div className="text-container">
                 <h2 className="mt-3 nimi-otsikko">Nova</h2>
-                <p className='normi-teskti'>Breed: Golden Retriever Mix</p>
-                <p className='normi-teskti'>Age: 9 months</p>
-                <p className='normi-teskti'>Gender: Female</p>
+                <p className='normi-teskti'> <b>Breed:</b> Golden Retriever Mix</p>
+                <p className='normi-teskti'> <b>Age:</b> 9 months</p>
+                <p className='normi-teskti'> <b>Gender:</b> Female</p>
                 <h3 className='ala-otsikko'>About Nova:</h3>
                 <p className='normi-teskti'>
                 Nova is a gentle and curious young pup with a soft heart and a sweet temperament.
@@ -258,12 +258,12 @@ function DogProfiles() {
 
                 <h3 className='ala-otsikko'>Health Info:</h3>
                 <ul>
-                  <li>- Vaccinated (core + rabies)</li>
-                  <li>- Microchipped</li>
-                  <li>- Sterilized</li>
-                  <li>- EU Pet Passport</li>
-                  <li>- Hip and elbow joints examined – no issues</li>
-                  <li>- Eyes and heart checked  – clear so far</li>
+                  <li>Vaccinated (core + rabies)</li>
+                  <li>Microchipped</li>
+                  <li>Sterilized</li>
+                  <li>EU Pet Passport</li>
+                  <li>Hip and elbow joints examined – no issues</li>
+                  <li>Eyes and heart checked  – clear so far</li>
                 </ul>
 
                 <h3 className='ala-otsikko'>Ideal Home:</h3>

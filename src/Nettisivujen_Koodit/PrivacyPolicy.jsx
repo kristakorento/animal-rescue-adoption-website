@@ -6,7 +6,7 @@ function PrivacyPolicy(){
     return(
         <div className='bg-color-grey'>
         <div className='bg-color-yellow p-5' style={{padding: "2rem", textAlign: "center" }}>
-          <h1>Privacy Policy</h1>
+          <h1 className="pb-3">Privacy Policy</h1>
           <p>
             We are committed to protecting your personal data and ensuring your privacy is respected.
             This Privacy Policy explains how we collect, use, store, and protect your information when you interact with our services.
@@ -16,7 +16,7 @@ function PrivacyPolicy(){
       <Container className="my-5">
         <Row className="justify-content-center"  style={{ margintop:"4rem" ,marginBottom: "4rem"}}>
           <Col md={8} lg={6} className="text-center">
-            <h1>What Information We Collect</h1>
+            <h2 className="pb-4">What Information We Collect</h2>
             <p>
               We may collect personal information that you provide to   us directly, such as your name, email address, phone number, 
               billing information, and any other details you choose to share. 
@@ -24,9 +24,9 @@ function PrivacyPolicy(){
               device information, and browsing behavior through cookies and analytics tools.
             </p>
 
-            <h3>Why We Collect Your Data</h3>
+            <h3 className="pt-5 pb-3">Why We Collect Your Data</h3>
             <p style={{ lineHeight: "2.0"}}>
-              We collect your information to:
+              <b>We collect your information to:</b> 
             </p>
             <div className="text-start info-list">
             <ul>
@@ -38,28 +38,28 @@ function PrivacyPolicy(){
             </ul>
             </div>
 
-            <h1>How We Store and Protect Your Data</h1>
+            <h3 className="pt-5 pb-3">How We Store and Protect Your Data</h3>
             <p style={{ lineHeight: "2.0"}}>Your data is stored securely using encryption, access controls, and other 
               industry-standard security measures. 
               We regularly monitor our systems for vulnerabilities and attacks to ensure your information remains safe.
             </p>
 
-            <h1>How Long We Keep Your Data</h1>
+            <h3 className="pt-5 pb-3">How Long We Keep Your Data</h3>
             <p style={{ lineHeight: "2.0"}}>
               We retain your personal data only as long as necessary to fulfill the purposes we collected it for, 
               including legal, accounting, or reporting requirements.
               When we no longer require your information, we securely delete or anonymize it.
             </p>
 
-            <h1>Cookies and Website Analytics</h1>
+            <h3 className="pt-5 pb-3">Cookies and Website Analytics</h3>
             <p style={{ lineHeight: "2.0"}}>We use cookies and similar technologies to enhance your browsing experience, 
               understand how our website is used, and improve our services. You can manage or disable cookies through your browser settings. 
               Our analytics partners may also collect information in an aggregated and anonymous form to help us understand usage patterns.
             </p>
 
-            <h1>Your Rights Under GDPR</h1>
+            <h3 className="pt-5 pb-3">Your Rights Under GDPR</h3>
             <p style={{ lineHeight: "2.0"}}> 
-             If you are located in the European Economic Area (EEA), you have the following rights:
+             <b> If you are located in the European Economic Area (EEA), you have the following rights: </b> 
             </p>
             <div className="text-start info-list">
             <ul>
@@ -75,7 +75,7 @@ function PrivacyPolicy(){
       </Container>
 
       <div className="bg-color-yellow p-5" style={{padding: "2rem", textAlign: "center" }}>
-        <h1>Have questions?</h1>
+        <h3 className="pb-3">Have questions?</h3>
         <p>
         If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact us <a className="link-bold" href="/contact-details">Contact Details</a>
         </p>

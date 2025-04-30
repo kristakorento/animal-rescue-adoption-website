@@ -6,7 +6,7 @@ function Policies() {
   return (
     <div className="bg-color-grey">
         <div className='bg-color-yellow p-5'>
-            <h1 className="p-3 fw-bold">Adoption Policies</h1>
+            <h1 className="pb-3">Adoption Policies</h1>
             <p>
                 Adopting a rescue dog is a big step — and we’re here to make it smooth and transparent. On this page, you’ll find details about our reservation process, and what’s required from adopters.
             </p>
@@ -17,14 +17,14 @@ function Policies() {
 
         <div className='bg-color-grey d-flex flex-column justify-content-center'>
           <Col md={8} lg={6} className="text-center">
-     <h1 className="p-3 fw-bold">Reservation & Cancellation Policy</h1>
-      <p>
+     <h2 className="p-5 pb-2">Reservation & Cancellation Policy</h2>
+      <p className='pt-3'>
         We understand that adopting a dog is a big commitment — and we want to make sure it's the right fit for both you and the dog.
       </p>
 
-      <h2 className=" text-dark p-3 fw-bold">Reservation Policy:</h2>
-      <div className="text-start info-list">
-      <ul>
+      <h3 className="p-4">Reservation Policy:</h3>
+      <div className="text-start info-list mb-5">
+      <ul className="white-background">
           <li>
             Once your application is approved, you may reserve a dog for up to 7 days.
           </li>
@@ -37,9 +37,9 @@ function Policies() {
       </ul>
       </div>
 
-      <h2 className="p-3 fw-bold">Cancellation Policy</h2>
-      <div className="text-start info-list">
-      <ul>
+      <h3 className="p-4">Cancellation Policy</h3>
+      <div className="text-start info-list mb-5">
+      <ul className="white-background">
         <li>
             If you decide to cancel the adoption after placing a reservation, the deposit is non-refundable.
         </li>
@@ -59,12 +59,12 @@ function Policies() {
         <Col md={8} lg={6} className="text-center">
       
       
-        <h1 className="p-3 fw-bold">Adoption Eligibility Criteria</h1>
-        <p>
+        <h2 className="p-3">Adoption Eligibility Criteria</h2>
+        <p className='pb-3'>
           We’re committed to making matches that are safe, stable, and lifelong. To adopt from Hope Tails Rescue, applicants must:
         </p>
         <div className="text-start info-list">
-        <ul>
+        <ul className="white-background">
             <li>Be at least 18 years old</li>
             <li>Reside in Finland (or be able to travel to our shelter for adoption)</li>
             <li>Have written consent from all household members</li>
@@ -74,17 +74,17 @@ function Policies() {
             <li>Agree to a home check (virtual or in-person) and follow-up after adoption</li>
         </ul>
         </div>
-      <p>
+      <p className="p-3">
         We do not prioritize based on who applies first — we focus on finding the best match for the dog’s individual needs.
       </p>
 
       <div className="adoption-denial-policy">
-        <h1 className="p-3 fw-bold">Adoption Denial Policy</h1>
-        <p>
+        <h2 className="p-3">Adoption Denial Policy</h2>
+        <p className="pb-3">
           While we deeply appreciate everyone who opens their heart to a rescue dog, we also have a responsibility to protect their well-being. We may deny an adoption application if:
         </p>
         <div className="text-start info-list">
-          <ul>
+          <ul className="white-background">
             <li>The applicant does not meet our eligibility requirements</li>
             <li>The home or lifestyle is not a suitable match for the specific dog</li>
             <li>There is a history of animal neglect, abuse, or rehoming pets</li>
@@ -93,7 +93,7 @@ function Policies() {
           </ul>
         </div>
       </div>
-      <p>
+      <p className="p-3">
         All decisions are made with the dog's best interest at heart. If your application is not approved, we’re happy to discuss why and help guide you to a better match if possible.
       </p>
 

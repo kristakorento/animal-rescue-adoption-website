@@ -33,7 +33,7 @@ function ContactDetails() {
     <div className="bg-color-grey min-vh-100">
 
       <div className="bg-color-yellow text-center p-5 mb-4 w-100">
-        <h1>Contact Information</h1>
+        <h1 className="pb-3">Contact Information</h1>
         <p>
           Have questions about adopting, volunteering, or our dogs?
           We’d love to hear from you! Whether you're ready to meet your new best friend or just want to
@@ -42,7 +42,7 @@ function ContactDetails() {
       </div>
 
       <Container className="pb-5">
-        <h1 className='mb-4'>Inquiry Form</h1>
+        <h2 className='mb-4 pt-3'>Inquiry Form</h2>
 
         {showAlert && (
           <Alert
@@ -150,37 +150,28 @@ function ContactDetails() {
         </div>
         <div className="text-center">
 
-          <h1 className='mb-4'>Other Info <br /></h1>
-          <h2>Get in Touch</h2>
+          <h2 className='p-3'>Get in Touch</h2>
 
-
-          <p><b>Phone:</b><br /> +358 123 4567</p>
-          <p><b>Email:</b> <br /> rescue@hopetails.fi </p>
-          <p style={{ fontWeight: "bold" }}>Shelter Location:</p>
-          <p>
-            Hope Tails Rescue ry <br />
+          <p className="pb-3"><b>Phone:</b> <br /> +358 123 4567</p>
+          <p className="pb-3"><b>Email:</b> <br /> rescue@hopetails.fi </p>
+          <p><b>Shelter Location:</b> <br />  Hope Tails Rescue ry <br />
             Esimerkkiosoite 1 <br />
-            11111, Esimerkki
-          </p>
-          <p style={{ fontWeight: "bold" }}>Visiting Hours: <br /> </p>
-          <p>Consider contacting us to schedule a visit — we want to ensure each visitor and dog has our full attention.</p>
+            11111, Esimerkki </p>
+          <p className="pb-2"> <b>Visiting Hours:</b> <br /> Consider contacting us to schedule a visit — we want to ensure each visitor and dog has our full attention.</p>
 
-          <p style={{ fontWeight: "bold" }}>Visitin Hours:</p>
-          <p>
-            Mon–Fri: 12:00–17:00 <br />
-            Sat: 11:00–15:00 <br />
-            Sun: Closed (dog rest day)
+          <p className="pb-3">
+            <b>Mon–Fri:</b> 12:00–17:00 <br />
+            <b>Sat:</b> 11:00–15:00 <br />
+             <b>Sun:</b> Closed (dog rest day)
           </p>
 
-          <p style={{ fontWeight: "bold" }}>Social Media:</p>
-
-          <p>Follow us on Instagram, Twitter, Facebook & LinkedIn @hopetailsrescue</p>
+          <p className="pb-3"> <b>Social Media:</b> <br /> Follow us on <b><a href="#">Instagram</a></b>, <b><a href="#">Twitter</a></b>, <b><a href="#">Facebook</a></b> & <b><a href="#">LinkedIn</a></b> @hopetailsrescue</p>
         </div>
       </Container>
 
       <div className="bg-color-yellow text-center py-5 w-100">
-        <h2 className='mb-4'>Partners</h2>
-        <img src={partners} alt="" srcset="" />
+        <h2>Partners</h2>
+        <img src={partners} alt="Hope Tails Partners" className="img-fluid" srcset="" />
       </div>
     </div>
   );
